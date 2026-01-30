@@ -1,0 +1,130 @@
+name: Weekly Academic Radar Scan
+
+on:
+  # Run every Monday at 9:00 UTC
+  schedule:
+    - cron: '0 9 * * 1'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Execution mode'
+        required: false
+        default: 'search'
+        type: choice
+        options:
+          - search
+          - profile
+          - full
+
+jobs:
+  run-radar:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history to access cached profile.json
+          fetch-depth: 0
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 🔍 Check for cached profile
+        id: check-profile
+        run: |
+          if [ -f "cache/profile.json" ]; then
+            echo "profile_exists=true" >> $GITHUB_OUTPUT
+            echo "✅ Found cached research profile"
+          else
+            echo "profile_exists=false" >> $GITHUB_OUTPUT
+            echo "⚠️ No cached profile found - will need to run profiler first"
+          fi
+      
+      - name: ⚙️ Determine execution mode
+        id: set-mode
+        run: |
+          if [ "${{ github.event.inputs.mode }}" != "" ]; then
+            MODE="${{ github.event.inputs.mode }}"
+          elif [ "${{ steps.check-profile.outputs.profile_exists }}" == "false" ]; then
+            MODE="full"
+          else
+            MODE="search"
+          fi
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+          echo "🎯 Execution mode: $MODE"
+      
+      - name: 🚀 Run Academic Radar
+        env:
+          # LLM API Keys (configure in GitHub Secrets)
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          
+          # OpenAlex Configuration
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+          
+          # SMTP Configuration
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          
+          # System Configuration
+          PROFILE_CACHE_PATH: ./cache/profile.json
+          PDF_STORAGE_PATH: ./data/papers
+          USER_PAPERS_PATH: ./data/user_papers
+          MAX_PAPERS_TO_ANALYZE: ${{ secrets.MAX_PAPERS_TO_ANALYZE || '5' }}
+          SEARCH_DAYS_BACK: ${{ secrets.SEARCH_DAYS_BACK || '7' }}
+          LLM_TEMPERATURE: ${{ secrets.LLM_TEMPERATURE || '0.7' }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'gpt-4-turbo-preview' }}
+        
+        run: |
+          echo "🎯 Starting Academic Radar in '${{ steps.set-mode.outputs.mode }}' mode"
+          python main.py --mode ${{ steps.set-mode.outputs.mode }}
+      
+      - name: 💾 Commit updated profile (if changed)
+        if: steps.set-mode.outputs.mode == 'profile' || steps.set-mode.outputs.mode == 'full'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Academic Radar Bot"
+          
+          if [ -f "cache/profile.json" ]; then
+            git add cache/profile.json
+            
+            # Only commit if there are changes
+            if git diff --staged --quiet; then
+              echo "No changes to profile.json"
+            else
+              git commit -m "🤖 Update research profile [skip ci]"
+              git push
+              echo "✅ Profile updated and committed"
+            fi
+          fi
+      
+      - name: 📊 Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-logs
+          path: |
+            academic_radar.log
+            cache/profile.json
+          retention-days: 30
+      
+      - name: 📢 Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Academic Radar failed. Check the logs for details."
+          # Optional: Add Slack/Discord notification here

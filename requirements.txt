@@ -1,0 +1,27 @@
+# Core Dependencies
+python-dotenv==1.0.0
+
+# LLM & Orchestration
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-anthropic==0.1.1
+langgraph==0.0.20
+
+# PDF Processing
+pymupdf==1.23.8
+markitdown==0.0.1a2
+
+# HTTP & API
+requests==2.31.0
+httpx==0.25.2
+
+# Data Processing
+pydantic==2.5.3
+python-dateutil==2.8.2
+
+# Email
+secure-smtplib==0.1.1
+
+# Utilities
+tenacity==8.2.3
+tqdm==4.66.1
