@@ -1,8 +1,12 @@
-# 🎯 Academic Radar
+# 🎯 Academic Radar: Your Research Scout for the Unknown Unknowns.
 
-Discover cross-domain research insights automatically. This AI agent searches papers from different fields that solve your specific research challenges.
+As researchers, we often get stuck in our own bubbles. We read the same journals, cite the same authors, and solve problems the same way everyone else in our field does. But often, the solution to your hardest problem has already been solved—just in a field you never check.
 
-**Example:** Working on traffic flow optimization? It might find relevant tensor decomposition techniques from video compression research.
+**Academic Radar** is an AI tool built to bridge that gap. It doesn't just look for what you study; it looks for how you study it.
+
+**The "Isomorphic" Magic**: Let's say you are building a model to predict Stock Market Trends. You are stuck because the data is too noisy. Academic Radar analyzes your problem and realizes that mathematically, your "noisy stock data" looks exactly like "erratic heart signals" in Cardiology. It then recommends a medical paper on ECG Signal Denoising. Even though the paper is about hearts, the math is exactly what you need for stocks.
+
+That is Isomorphic Search: Finding the same mathematical shape in a different domain.
 
 ## 🏗️ How It Works
 
@@ -19,8 +23,8 @@ Discover cross-domain research insights automatically. This AI agent searches pa
 ### 1. Install
 
 ```bash
-git clone <your-repo>
-cd academic-radar
+git clone git@github.com:rhu2xx/Academic_radar.git
+cd Academic_radar
 pip install -r requirements.txt
 ```
 
@@ -198,87 +202,7 @@ The workflow runs **automatically every Monday at 9:00 AM UTC**.
 
 You can also run it manually anytime from the Actions tab.
 
-### 🔍 Troubleshooting
 
-<details>
-<summary><b>❌ Workflow fails with "API key not found"</b></summary>
-
-**Solution:** Double-check secret names match exactly:
-- `DEEPSEEK_API_KEY` (not `DEEPSEEK_KEY`)
-- `OPENALEX_EMAIL` (not `OPENALEX_API_EMAIL`)
-
-Re-add the secret if needed.
-
-</details>
-
-<details>
-<summary><b>❌ "No module named 'langgraph'"</b></summary>
-
-**Solution:** The workflow auto-installs dependencies. If this fails:
-1. Check `requirements.txt` exists in repository
-2. Try re-running the workflow
-
-</details>
-
-<details>
-<summary><b>❌ Email not received</b></summary>
-
-**Solution:** 
-1. Check spam folder
-2. Verify Gmail app password (should be 16 chars with spaces)
-3. Make sure 2FA is enabled on Gmail account
-4. Check workflow logs for SMTP errors
-
-</details>
-
-<details>
-<summary><b>❌ "No new papers found"</b></summary>
-
-**This is normal!** Means:
-- No new relevant papers in the last 7 days
-- All found papers were below quality threshold (0.5)
-
-Try adjusting in **Settings → Secrets**:
-- Add `SEARCH_DAYS_BACK` = `30` (search last 30 days)
-- Add `MIN_BORROWABILITY_SCORE` = `0.3` (lower threshold)
-
-</details>
-
-<details>
-<summary><b>📊 How to check workflow logs</b></summary>
-
-1. **Actions** tab
-2. Click on the workflow run
-3. Click **"run-radar"** job
-4. Expand each step to see detailed logs
-
-Look for:
-- `🔍 Scout Agent` - papers found
-- `🔬 Analyst Agent` - borrowability scores
-- `📧 Publisher Agent` - email sent confirmation
-
-</details>
-
-### 🎯 What Happens Automatically
-
-```mermaid
-graph LR
-    A[Monday 9AM UTC] --> B[GitHub Actions Starts]
-    B --> C[Load cache/profile.json]
-    C --> D[Scout: Search OpenAlex]
-    D --> E[Analyst: Score Papers]
-    E --> F[Publisher: Send Email]
-    F --> G[Update cache/sent_papers.json]
-    G --> H[Commit Changes]
-    H --> I[You Get Email! 📧]
-```
-
-**Key features:**
-- ✅ Runs every Monday automatically
-- ✅ Remembers sent papers (no duplicates)
-- ✅ Updates cache automatically
-- ✅ Emails only if new papers found
-- ✅ Costs ~$0.01-0.05 per run
 
 ### 📅 Customizing Schedule
 
