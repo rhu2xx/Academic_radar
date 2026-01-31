@@ -52,43 +52,48 @@ Extract the profile as JSON:"""
 
 ABSTRACTOR_SYSTEM_PROMPT = """You are a creative research strategist who generates search queries to find "isomorphic contributions" across disciplines.
 
-Given a research profile, you must generate THREE types of queries:
+Given a research profile, you must generate THREE types of queries that balance SPECIFICITY and CROSS-DOMAIN DISCOVERY:
 
 1. **DIRECT Queries** (1-2 queries):
-   - Use 3-5 domain-specific keywords from the profile
-   - Keep it SHORT and focused
-   - Example: "transformer inference memory optimization"
+   - Use domain-specific terms to find papers in the SAME field
+   - Include key technical concepts (5-8 words)
+   - Example: "transformer attention KV cache memory management"
+   - Goal: Find papers directly addressing the user's problem
    
 2. **ABSTRACTED Queries** (2-3 queries):
-   - REMOVE domain-specific nouns
-   - Keep mathematical/structural concepts (3-5 words)
+   - REMOVE domain-specific nouns (e.g., "transformer", "neural network")
+   - Keep mathematical/algorithmic structures
+   - Use 4-7 words describing the MATHEMATICAL essence
+   - Example: "sparse matrix blocking temporal reuse patterns"
    - Goal: Find papers from OTHER fields solving similar mathematical problems
-   - Example: "sparse attention mechanisms" (could find papers on graph theory, compression, etc.)
    
 3. **SOLUTION-SEEKING Queries** (2-3 queries):
-   - Target the user's pain points directly (3-5 words)
-   - Example: "memory bottleneck optimization"
-   - Example: "quadratic complexity reduction"
+   - Target the user's pain points with outcome-focused terms
+   - Use 4-6 words describing the desired solution
+   - Example: "reduce quadratic attention complexity streaming"
+   - Example: "memory-efficient sequential data processing"
+   - Goal: Find papers proposing solutions regardless of domain
 
-CRITICAL RULES:
-- Keep ALL queries SHORT (3-5 keywords maximum)
-- OpenAlex works better with focused, not verbose queries
-- Remove filler words (the, and, or, with, for, using, etc.)
+QUERY DESIGN PRINCIPLES:
+- Use natural language phrases, not just keywords
+- Include technical terms that appear across domains
+- Balance specificity (to get relevant results) with abstraction (to cross domains)
+- OpenAlex understands phrases like "reduce complexity" or "memory-efficient"
 
-For ABSTRACTED queries, think of mathematical structures that appear in domains like:
-- Computer vision
-- Natural language processing  
-- Bioinformatics
-- Physics simulations
-- Video compression
+For ABSTRACTED queries, think of mathematical structures that appear in:
+- Computer vision (convolution, pooling, attention)
+- Signal processing (filtering, compression, transforms)
+- Databases (indexing, caching, query optimization)
+- Computational biology (sequence alignment, dynamic programming)
+- Physics simulations (sparse matrices, iterative solvers)
 
 Output MUST be valid JSON array:
 [
   {
     "query_type": "direct|abstracted|solution_seeking",
-    "query_string": "the search query",
+    "query_string": "natural language search phrase",
     "rationale": "why this will find isomorphic work",
-    "expected_domains": ["field1", "field2"]
+    "expected_domains": ["field1", "field2", "field3"]
   }
 ]
 """
@@ -169,20 +174,20 @@ EMAIL_TEMPLATE_HTML = """
 <html>
 <head>
     <style>
-        body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }}
-        .header {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; }}
-        .header h1 {{ margin: 0; font-size: 28px; }}
-        .header p {{ margin: 5px 0 0 0; opacity: 0.9; }}
+        body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #ffffff; }}
+        .header {{ background-color: #6b7fd7; color: #ffffff; padding: 30px; border-radius: 10px; margin-bottom: 30px; }}
+        .header h1 {{ margin: 0; font-size: 28px; color: #ffffff; }}
+        .header p {{ margin: 5px 0 0 0; opacity: 0.95; color: #ffffff; }}
         .paper {{ background: #f8f9fa; border-left: 4px solid #667eea; padding: 20px; margin-bottom: 25px; border-radius: 5px; }}
         .paper-title {{ font-size: 20px; font-weight: bold; color: #2c3e50; margin-bottom: 10px; }}
         .paper-meta {{ font-size: 14px; color: #7f8c8d; margin-bottom: 15px; }}
-        .score {{ display: inline-block; background: #667eea; color: white; padding: 4px 12px; border-radius: 20px; font-size: 14px; font-weight: bold; }}
-        .score.high {{ background: #10b981; }}
-        .score.medium {{ background: #f59e0b; }}
+        .score {{ display: inline-block; background: #667eea; color: #ffffff; padding: 4px 12px; border-radius: 20px; font-size: 14px; font-weight: bold; }}
+        .score.high {{ background: #10b981; color: #ffffff; }}
+        .score.medium {{ background: #f59e0b; color: #ffffff; }}
         .insight {{ background: white; padding: 15px; border-radius: 5px; margin: 15px 0; border: 1px solid #e5e7eb; }}
         .insight-label {{ font-weight: bold; color: #667eea; margin-bottom: 5px; }}
         .footer {{ text-align: center; margin-top: 40px; padding-top: 20px; border-top: 2px solid #e5e7eb; color: #7f8c8d; font-size: 14px; }}
-        .cta {{ background: #667eea; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }}
+        .cta {{ background: #667eea; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }}
     </style>
 </head>
 <body>
@@ -212,7 +217,12 @@ PAPER_CARD_HTML = """
     </div>
     
     <div class="insight">
-        <div class="insight-label">💡 Isomorphic Connection</div>
+        <div class="insight-label">� Abstract</div>
+        {abstract}
+    </div>
+    
+    <div class="insight">
+        <div class="insight-label">�💡 Isomorphic Connection</div>
         {isomorphic_connection}
     </div>
     

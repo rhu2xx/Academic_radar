@@ -13,6 +13,7 @@ from typing import List
 from src.core.models import AnalyzedPaper, EmailReport
 from src.core.prompts import EMAIL_TEMPLATE_HTML, PAPER_CARD_HTML
 from src.core.state import ResearchState
+from src.tools.paper_tracker import PaperTracker
 
 logger = logging.getLogger(__name__)
 
@@ -26,6 +27,11 @@ class PublisherAgent:
         self.smtp_user = os.getenv('SMTP_USER')
         self.smtp_pass = os.getenv('SMTP_PASS')
         self.recipient = os.getenv('RECIPIENT_EMAIL')
+        self.tracker = PaperTracker()
+        
+        # Cleanup old entries periodically
+        history_days = int(os.getenv('PAPER_HISTORY_DAYS', 365))
+        self.tracker.cleanup_old_entries(days_to_keep=history_days)
         
         if not all([self.smtp_user, self.smtp_pass, self.recipient]):
             logger.warning("SMTP credentials not fully configured")
@@ -47,14 +53,55 @@ class PublisherAgent:
             return state
         
         try:
+            papers_to_send = state['analyzed_papers']
+            
+            # Safety net: deduplicate by title in this batch (rare edge case)
+            # Note: Duplicates should already be removed in Analyst agent
+            seen_titles = set()
+            unique_papers = []
+            duplicates_in_batch = 0
+            
+            for paper in papers_to_send:
+                # Normalize title for comparison
+                normalized_title = self.tracker.normalize_title(paper.metadata.title)
+                
+                if normalized_title in seen_titles:
+                    duplicates_in_batch += 1
+                    logger.warning(f"🚫 Late-stage duplicate detected: '{paper.metadata.title[:60]}...'")
+                    logger.warning(f"   (This should have been caught in Analyst - potential bug!)")
+                else:
+                    seen_titles.add(normalized_title)
+                    unique_papers.append(paper)
+            
+            if duplicates_in_batch > 0:
+                logger.warning(f"⚠️  Removed {duplicates_in_batch} duplicates at Publisher stage (should be caught earlier)")
+            
+            papers_to_send = unique_papers
+            
+            if not papers_to_send:
+                logger.info("📭 No papers to send")
+                state['email_content'] = None
+                return state
+            
+            logger.info(f"📨 Preparing to send {len(papers_to_send)} papers")
+            
             # Generate email content
-            email_report = self._generate_email(state['analyzed_papers'])
+            email_report = self._generate_email(papers_to_send)
             state['email_content'] = email_report
             
             # Send email (unless skipped)
             if not state.get('skip_email', False):
                 self._send_email(email_report)
+                
+                # Mark papers as sent AFTER successful delivery
+                paper_ids = [p.metadata.openalex_id for p in papers_to_send]
+                paper_titles = [p.metadata.title for p in papers_to_send]
+                self.tracker.mark_multiple_as_sent(paper_ids, paper_titles)
+                
+                # Show tracking stats
+                stats = self.tracker.get_stats()
                 logger.info(f"✅ Email delivered to {self.recipient}")
+                logger.info(f"📊 Total papers sent historically: {stats['total_sent']}")
             else:
                 logger.info("📝 Email generated but not sent (skip_email=True)")
             
@@ -85,6 +132,11 @@ class PublisherAgent:
             if len(paper.metadata.authors) > 3:
                 authors_str += ' et al.'
             
+            # Truncate abstract if too long (keep first 500 chars)
+            abstract = paper.metadata.abstract or 'No abstract available.'
+            # if len(abstract) > 500:
+            #     abstract = abstract[:497] + '...'
+            
             card_html = PAPER_CARD_HTML.format(
                 title=paper.metadata.title,
                 field=paper.metadata.primary_field or 'Unknown',
@@ -92,6 +144,7 @@ class PublisherAgent:
                 date=paper.metadata.publication_date.strftime('%Y-%m-%d'),
                 score=f"{paper.borrowability_score:.2f}",
                 score_class=score_class,
+                abstract=abstract,
                 isomorphic_connection=paper.isomorphic_connection,
                 methodology=paper.methodology_summary,
                 practical_application=paper.practical_application,
@@ -118,9 +171,15 @@ class PublisherAgent:
         ]
         
         for i, paper in enumerate(papers, 1):
+            # Truncate abstract for plain text
+            abstract = paper.metadata.abstract or 'No abstract available.'
+            if len(abstract) > 300:
+                abstract = abstract[:297] + '...'
+            
             plain_text_parts.extend([
                 f"\n{i}. {paper.metadata.title}",
                 f"   Field: {paper.metadata.primary_field} | Score: {paper.borrowability_score:.2f}",
+                f"\n   Abstract: {abstract}",
                 f"\n   {paper.isomorphic_connection}",
                 f"\n   How to apply: {paper.practical_application}",
                 f"   Read: {paper.metadata.url}\n"

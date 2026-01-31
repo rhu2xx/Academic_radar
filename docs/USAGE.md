@@ -59,8 +59,11 @@ ANTHROPIC_API_KEY=sk-ant-...
 # OR
 DEEPSEEK_API_KEY=sk-...
 
-# OpenAlex (required)
+# OpenAlex (required for polite pool)
 OPENALEX_EMAIL=your_email@example.com
+
+# OpenAlex Premium (optional - get from https://openalex.org/account)
+OPENALEX_API_KEY=your_api_key_here  # 1M requests/day instead of 100K
 
 # Email delivery (required)
 SMTP_HOST=smtp.gmail.com
@@ -70,14 +73,34 @@ SMTP_PASS=your_app_password
 RECIPIENT_EMAIL=where_to_send_reports@example.com
 ```
 
-### 2. Gmail Setup (Recommended)
+### 2. OpenAlex API Key (Optional but Recommended)
+
+**Why get an API key?**
+- **10x daily limit**: 1,000,000 requests/day vs 100,000
+- Same speed as polite pool (100 req/sec)
+- Free for academic/research use
+- Better rate limit monitoring
+
+**How to get it:**
+1. Visit [openalex.org/account](https://openalex.org/account)
+2. Sign up or log in with your academic email
+3. Navigate to "API Keys" section
+4. Generate a new API key
+5. Copy the key to `OPENALEX_API_KEY` in `.env`
+
+**Access tiers:**
+- ❌ Basic: 10 req/sec, 100K/day (no config)
+- ✅ Polite Pool: 100 req/sec, 100K/day (email required)
+- 🌟 Premium: 100 req/sec, 1M/day (API key recommended)
+
+### 3. Gmail Setup (Recommended)
 
 1. Enable 2-Factor Authentication on your Google account
 2. Go to [Google App Passwords](https://myaccount.google.com/apppasswords)
 3. Generate a new app password for "Mail"
 4. Use this password in `SMTP_PASS`
 
-### 3. Test Configuration
+### 4. Test Configuration
 
 ```bash
 python setup.py

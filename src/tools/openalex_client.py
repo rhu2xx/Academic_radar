@@ -17,27 +17,50 @@ logger = logging.getLogger(__name__)
 class OpenAlexClient:
     """
     Client for OpenAlex API.
-    Uses polite pool (requires email) and implements rate limiting.
+    Supports both polite pool (email) and API key authentication.
+    
+    Rate limits:
+    - No auth: 10 requests/second, 100,000/day
+    - Polite pool (email): 100 requests/second, 100,000/day
+    - API key: 100 requests/second, 1,000,000/day (Premium)
     """
     
     BASE_URL = "https://api.openalex.org"
     
-    def __init__(self, email: str, rate_limit_delay: float = 3.0):
+    def __init__(
+        self, 
+        email: str, 
+        api_key: Optional[str] = None,
+        rate_limit_delay: float = 3.0
+    ):
         """
         Initialize client.
         
         Args:
             email: Your email for polite pool access (10x faster)
+            api_key: Optional API key for premium access (100x daily limit)
             rate_limit_delay: Delay between requests (seconds)
         """
         self.email = email
+        self.api_key = api_key
         self.rate_limit_delay = rate_limit_delay
         self.last_request_time = 0
         self.session = requests.Session()
-        self.session.headers.update({
+        
+        # Setup headers
+        headers = {
             'User-Agent': f'AcademicRadar/1.0 (mailto:{email})',
             'Accept': 'application/json'
-        })
+        }
+        
+        # Add API key if provided (premium access)
+        if api_key:
+            headers['Authorization'] = f'Bearer {api_key}'
+            logger.info("OpenAlex client initialized with API key (Premium: 1M requests/day)")
+        else:
+            logger.info("OpenAlex client initialized with polite pool (100K requests/day)")
+        
+        self.session.headers.update(headers)
     
     def _rate_limit(self):
         """Enforce rate limiting between requests."""
@@ -60,12 +83,18 @@ class OpenAlexClient:
         """
         self._rate_limit()
         
-        # Add polite pool email
+        # Add polite pool email (still recommended even with API key)
         params['mailto'] = self.email
         
         url = f"{self.BASE_URL}/{endpoint}"
         response = self.session.get(url, params=params)
         response.raise_for_status()
+        
+        # Log rate limit info from response headers
+        if 'X-RateLimit-Limit' in response.headers:
+            limit = response.headers.get('X-RateLimit-Limit')
+            remaining = response.headers.get('X-RateLimit-Remaining')
+            logger.debug(f"Rate limit: {remaining}/{limit} requests remaining")
         
         return response.json()
     
@@ -74,16 +103,20 @@ class OpenAlexClient:
         query: str,
         from_date: Optional[datetime] = None,
         max_results: int = 50,
-        filter_params: Optional[dict] = None
+        page: int = 1,
+        filter_params: Optional[dict] = None,
+        sort: str = 'publication_date:desc'
     ) -> List[PaperMetadata]:
         """
-        Search for papers on OpenAlex.
+        Search for papers on OpenAlex with pagination support.
         
         Args:
             query: Search query string
             from_date: Only return papers after this date
-            max_results: Maximum papers to return
+            max_results: Maximum papers to return per page
+            page: Page number (1-indexed)
             filter_params: Additional OpenAlex filters
+            sort: Sort order (publication_date:desc, relevance_score:desc, cited_by_count:desc)
             
         Returns:
             List of paper metadata
@@ -91,7 +124,8 @@ class OpenAlexClient:
         params = {
             'search': query,
             'per-page': min(max_results, 200),  # API limit
-            'sort': 'publication_date:desc',
+            'page': page,
+            'sort': sort,
         }
         
         # Build filter string
@@ -100,6 +134,9 @@ class OpenAlexClient:
             date_str = from_date.strftime('%Y-%m-%d')
             filters.append(f'from_publication_date:{date_str}')
         
+        # Only include English papers
+        filters.append('language:en')
+        
         if filter_params:
             for key, value in filter_params.items():
                 filters.append(f'{key}:{value}')
@@ -107,11 +144,12 @@ class OpenAlexClient:
         if filters:
             params['filter'] = ','.join(filters)
         
-        logger.info(f"Searching OpenAlex: '{query}' (max {max_results} results)")
+        logger.debug(f"Searching OpenAlex: '{query}' page {page} (max {max_results} results)")
         
         try:
             data = self._request('works', params)
             results = data.get('results', [])
+            total_results = data.get('meta', {}).get('count', 0)
             
             papers = []
             for work in results[:max_results]:
@@ -122,7 +160,7 @@ class OpenAlexClient:
                     logger.warning(f"Error parsing work {work.get('id', 'unknown')}: {e}")
                     continue
             
-            logger.info(f"Found {len(papers)} papers")
+            logger.debug(f"Found {len(papers)} papers on page {page} (total available: {total_results})")
             return papers
             
         except Exception as e:
@@ -148,6 +186,29 @@ class OpenAlexClient:
         domain = primary_topic.get('domain') or {}
         primary_field = domain.get('display_name', 'Unknown')
         
+        # Extract abstract (try direct field first, then inverted index)
+        abstract = work.get('abstract')
+        if not abstract or abstract.strip() == '':
+            # Try to reconstruct from abstract_inverted_index
+            inverted_index = work.get('abstract_inverted_index')
+            if inverted_index and isinstance(inverted_index, dict):
+                try:
+                    # Reconstruct abstract from inverted index
+                    word_positions = []
+                    for word, positions in inverted_index.items():
+                        if isinstance(positions, list):
+                            for pos in positions:
+                                word_positions.append((pos, word))
+                    
+                    # Sort by position and join
+                    word_positions.sort(key=lambda x: x[0])
+                    abstract = ' '.join([word for pos, word in word_positions])
+                except Exception as e:
+                    logger.debug(f"Failed to reconstruct abstract from inverted index: {e}")
+                    abstract = ''
+        
+        abstract = abstract or ''
+        
         # Extract URL
         url = work.get('doi')
         if url and not url.startswith('http'):
@@ -158,7 +219,7 @@ class OpenAlexClient:
         return PaperMetadata(
             title=work.get('title', 'Untitled'),
             authors=authors,
-            abstract=work.get('abstract', '') or '',
+            abstract=abstract,
             publication_date=pub_date,
             doi=work.get('doi'),
             openalex_id=work.get('id', ''),

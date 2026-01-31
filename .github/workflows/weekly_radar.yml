@@ -73,6 +73,7 @@ jobs:
           
           # OpenAlex Configuration
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           
           # SMTP Configuration
           SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
@@ -85,10 +86,23 @@ jobs:
           PROFILE_CACHE_PATH: ./cache/profile.json
           PDF_STORAGE_PATH: ./data/papers
           USER_PAPERS_PATH: ./data/user_papers
+          
+          # Search & Analysis Parameters
           MAX_PAPERS_TO_ANALYZE: ${{ secrets.MAX_PAPERS_TO_ANALYZE || '5' }}
-          SEARCH_DAYS_BACK: ${{ secrets.SEARCH_DAYS_BACK || '7' }}
+          SEARCH_DAYS_BACK: ${{ secrets.SEARCH_DAYS_BACK || '30' }}
+          MIN_BORROWABILITY_SCORE: ${{ secrets.MIN_BORROWABILITY_SCORE || '0.5' }}
+          MAX_RESULTS_PER_QUERY: ${{ secrets.MAX_RESULTS_PER_QUERY || '20' }}
+          
+          # Deep Search Configuration
+          TARGET_NEW_PAPERS: ${{ secrets.TARGET_NEW_PAPERS || '5' }}
+          MAX_PAGES_TO_SCAN: ${{ secrets.MAX_PAGES_TO_SCAN || '5' }}
+          
+          # Paper Tracking
+          PAPER_HISTORY_DAYS: ${{ secrets.PAPER_HISTORY_DAYS || '365' }}
+          
+          # LLM Configuration
           LLM_TEMPERATURE: ${{ secrets.LLM_TEMPERATURE || '0.7' }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL || 'gpt-4-turbo-preview' }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'deepseek-chat' }}
         
         run: |
           echo "🎯 Starting Academic Radar in '${{ steps.set-mode.outputs.mode }}' mode"
@@ -110,6 +124,25 @@ jobs:
               git commit -m "🤖 Update research profile [skip ci]"
               git push
               echo "✅ Profile updated and committed"
+            fi
+          fi
+      
+      - name: 💾 Commit updated tracking file
+        if: success()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Academic Radar Bot"
+          
+          if [ -f "cache/sent_papers.json" ]; then
+            git add cache/sent_papers.json
+            
+            # Only commit if there are changes
+            if git diff --staged --quiet; then
+              echo "No changes to sent_papers.json"
+            else
+              git commit -m "🤖 Update paper tracking [skip ci]"
+              git push
+              echo "✅ Paper tracking updated and committed"
             fi
           fi
       
