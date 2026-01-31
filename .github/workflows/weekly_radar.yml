@@ -18,6 +18,10 @@ on:
           - profile
           - full
 
+# Required for workflow to push changes back to repo
+permissions:
+  contents: write
+
 jobs:
   run-radar:
     runs-on: ubuntu-latest
@@ -108,42 +112,23 @@ jobs:
           echo "🎯 Starting Academic Radar in '${{ steps.set-mode.outputs.mode }}' mode"
           python main.py --mode ${{ steps.set-mode.outputs.mode }}
       
-      - name: 💾 Commit updated profile (if changed)
-        if: steps.set-mode.outputs.mode == 'profile' || steps.set-mode.outputs.mode == 'full'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "Academic Radar Bot"
-          
-          if [ -f "cache/profile.json" ]; then
-            git add cache/profile.json
-            
-            # Only commit if there are changes
-            if git diff --staged --quiet; then
-              echo "No changes to profile.json"
-            else
-              git commit -m "🤖 Update research profile [skip ci]"
-              git push
-              echo "✅ Profile updated and committed"
-            fi
-          fi
-      
-      - name: 💾 Commit updated tracking file
+      - name: 💾 Commit updated cache files
         if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Academic Radar Bot"
           
-          if [ -f "cache/sent_papers.json" ]; then
-            git add cache/sent_papers.json
-            
-            # Only commit if there are changes
-            if git diff --staged --quiet; then
-              echo "No changes to sent_papers.json"
-            else
-              git commit -m "🤖 Update paper tracking [skip ci]"
-              git push
-              echo "✅ Paper tracking updated and committed"
-            fi
+          # Add all cache files
+          git add cache/sent_papers.json 2>/dev/null || true
+          git add cache/profile.json 2>/dev/null || true
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to cache files"
+          else
+            git commit -m "🤖 Update cache files [skip ci]"
+            git push
+            echo "✅ Cache files updated and committed"
           fi
       
       - name: 📊 Upload artifacts

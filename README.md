@@ -113,15 +113,193 @@ python main.py --mode search
 python main.py --mode full
 ```
 
-## 📧 Weekly Automation
+## 🤖 Automate with GitHub Actions
 
-Set up GitHub Actions to run automatically every Monday:
+Get weekly paper discoveries delivered automatically - no manual running required!
 
-1. Add repository secrets: `DEEPSEEK_API_KEY`, `SMTP_USER`, `SMTP_PASS`, `RECIPIENT_EMAIL`, `OPENALEX_EMAIL`
-2. Commit your `cache/profile.json`
-3. Enable Actions in repository settings
+### Prerequisites
 
-Done! You'll receive weekly emails with discoveries.
+- ✅ Completed steps 1-3 above (installed, configured, created profile)
+- ✅ GitHub account with this repository
+
+### Setup Instructions
+
+#### Step 1: Prepare Your Repository
+
+```bash
+# 1. Make sure your profile is ready
+python main.py --mode profile
+
+# 2. Commit essential files
+git add cache/profile.json
+git add .github/workflows/weekly_radar.yml
+git commit -m "Setup automated radar workflow"
+git push
+```
+
+#### Step 2: Add GitHub Secrets
+
+Go to your repository on GitHub:
+
+**Settings → Secrets and variables → Actions → New repository secret**
+
+Add these secrets one by one:
+
+| Secret Name | Value | Example | Required |
+|-------------|-------|---------|----------|
+| `DEEPSEEK_API_KEY` | Your DeepSeek API key | `sk-abc123...` | ✅ Yes |
+| `OPENALEX_EMAIL` | Your email for OpenAlex | `you@email.com` | ✅ Yes |
+| `SMTP_USER` | Your Gmail address | `you@gmail.com` | ✅ Yes |
+| `SMTP_PASS` | Gmail app password (16 chars) | `abcd efgh ijkl mnop` | ✅ Yes |
+| `RECIPIENT_EMAIL` | Where to send reports | `you@email.com` | ✅ Yes |
+
+<details>
+<summary><b>💡 How to Add Secrets (Click to expand)</b></summary>
+
+1. Click **"New repository secret"**
+2. Enter **Name** (e.g., `DEEPSEEK_API_KEY`)
+3. Enter **Secret** (paste your API key)
+4. Click **"Add secret"**
+5. Repeat for all 5 secrets
+
+**Screenshot Guide:**
+```
+Repository → Settings → Secrets and variables → Actions
+                                                    ↓
+                                    [New repository secret] button
+```
+
+</details>
+
+#### Step 3: Enable GitHub Actions
+
+1. Go to the **Actions** tab in your repository
+2. If prompted, click **"I understand my workflows, go ahead and enable them"**
+3. You should see **"Weekly Academic Radar Scan"** workflow
+
+#### Step 4: Test the Workflow
+
+**Manual test run:**
+
+1. Go to **Actions** tab
+2. Click **"Weekly Academic Radar Scan"**
+3. Click **"Run workflow"** dropdown (right side)
+4. Select `mode: search`
+5. Click green **"Run workflow"** button
+
+**Wait 2-3 minutes**, then:
+- ✅ Check workflow status (should show green ✓)
+- ✅ Check your email inbox
+- ✅ Check repository - `cache/sent_papers.json` should be updated
+
+#### Step 5: Verify Automation
+
+The workflow runs **automatically every Monday at 9:00 AM UTC**.
+
+You can also run it manually anytime from the Actions tab.
+
+### 🔍 Troubleshooting
+
+<details>
+<summary><b>❌ Workflow fails with "API key not found"</b></summary>
+
+**Solution:** Double-check secret names match exactly:
+- `DEEPSEEK_API_KEY` (not `DEEPSEEK_KEY`)
+- `OPENALEX_EMAIL` (not `OPENALEX_API_EMAIL`)
+
+Re-add the secret if needed.
+
+</details>
+
+<details>
+<summary><b>❌ "No module named 'langgraph'"</b></summary>
+
+**Solution:** The workflow auto-installs dependencies. If this fails:
+1. Check `requirements.txt` exists in repository
+2. Try re-running the workflow
+
+</details>
+
+<details>
+<summary><b>❌ Email not received</b></summary>
+
+**Solution:** 
+1. Check spam folder
+2. Verify Gmail app password (should be 16 chars with spaces)
+3. Make sure 2FA is enabled on Gmail account
+4. Check workflow logs for SMTP errors
+
+</details>
+
+<details>
+<summary><b>❌ "No new papers found"</b></summary>
+
+**This is normal!** Means:
+- No new relevant papers in the last 7 days
+- All found papers were below quality threshold (0.5)
+
+Try adjusting in **Settings → Secrets**:
+- Add `SEARCH_DAYS_BACK` = `30` (search last 30 days)
+- Add `MIN_BORROWABILITY_SCORE` = `0.3` (lower threshold)
+
+</details>
+
+<details>
+<summary><b>📊 How to check workflow logs</b></summary>
+
+1. **Actions** tab
+2. Click on the workflow run
+3. Click **"run-radar"** job
+4. Expand each step to see detailed logs
+
+Look for:
+- `🔍 Scout Agent` - papers found
+- `🔬 Analyst Agent` - borrowability scores
+- `📧 Publisher Agent` - email sent confirmation
+
+</details>
+
+### 🎯 What Happens Automatically
+
+```mermaid
+graph LR
+    A[Monday 9AM UTC] --> B[GitHub Actions Starts]
+    B --> C[Load cache/profile.json]
+    C --> D[Scout: Search OpenAlex]
+    D --> E[Analyst: Score Papers]
+    E --> F[Publisher: Send Email]
+    F --> G[Update cache/sent_papers.json]
+    G --> H[Commit Changes]
+    H --> I[You Get Email! 📧]
+```
+
+**Key features:**
+- ✅ Runs every Monday automatically
+- ✅ Remembers sent papers (no duplicates)
+- ✅ Updates cache automatically
+- ✅ Emails only if new papers found
+- ✅ Costs ~$0.01-0.05 per run
+
+### 📅 Customizing Schedule
+
+Edit `.github/workflows/weekly_radar.yml`:
+
+```yaml
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+```
+
+**Common schedules:**
+- `'0 9 * * 1'` - Every Monday 9 AM
+- `'0 9 * * 1,4'` - Monday and Thursday 9 AM  
+- `'0 9 1,15 * *'` - 1st and 15th of month 9 AM
+- `'0 9 * * *'` - Every day 9 AM
+
+**Convert to your timezone:**
+- UTC 9 AM = PST 1 AM = EST 4 AM = CST 3 PM = JST 6 PM
+
+---
 
 ## ⚙️ Key Settings
 

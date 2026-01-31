@@ -26,11 +26,11 @@ wheels/
 *.egg
 
 # Cache & Data
-cache/
-data/
-*.json
-!profile_schema.json
-*.pdf
+# Keep cache/*.json for workflow persistence
+cache/*.log
+cache/*.tmp
+data/user_papers/*.pdf
+data/papers/*.pdf
 
 # IDE
 .vscode/

@@ -1,0 +1,41 @@
+{
+  "core_task": "Optimizing memory and computational efficiency for high-dimensional sparse operations in neural architectures through selective data retention and specialized data structures.",
+  "mathematical_framework": "Combinatorial optimization with sparse relaxations, vector space geometry (projections, directions), high-dimensional tensor algebra, block-based sparse representations, and index linearization.",
+  "pain_points": [
+    "Suboptimal token selection due to ignoring spatial relationships in vector space",
+    "Quadratic computational complexity in attention mechanisms",
+    "KV cache size scaling linearly with sequence length causing GPU memory and I/O bottlenecks",
+    "Low computational intensity and high memory consumption for sparse high-dimensional tensors",
+    "Unpredictable memory access patterns from multi-dimensional index matching",
+    "Memory wall problem exacerbated by powerful tensor core units",
+    "Load imbalance in parallel sparse computations"
+  ],
+  "domain_keywords": [
+    "KV cache eviction",
+    "LLM inference",
+    "transformer architecture",
+    "self-attention",
+    "sparse tensor contraction",
+    "tensor networks",
+    "GPU acceleration",
+    "tensor core units",
+    "memory optimization",
+    "inference latency"
+  ],
+  "methodologies": [
+    "Anchor Direction Projection (AnDPro)",
+    "Projection-based scoring functions",
+    "Sparse optimization formulations",
+    "BCB format (block compression with bitmap)",
+    "Parallel blocking algorithms",
+    "Index linearization techniques",
+    "Tensor core unit utilization",
+    "Combinatorial optimization with relaxations",
+    "Vector space geometry analysis"
+  ],
+  "created_at": "2026-01-30 12:53:58.085632",
+  "source_papers": [
+    "data/user_papers/27280_Accurate_KV_Cache_Evicti.pdf",
+    "data/user_papers/BCB-SpTC_An_Efficient_Sparse_High-Dimensional_Tensor_Contraction_Employing_Tensor_Core_Acceleration.pdf"
+  ]
+}
