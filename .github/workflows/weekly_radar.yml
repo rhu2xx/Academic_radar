@@ -88,25 +88,24 @@ jobs:
           
           # System Configuration
           PROFILE_CACHE_PATH: ./cache/profile.json
-          PDF_STORAGE_PATH: ./data/papers
           USER_PAPERS_PATH: ./data/user_papers
           
-          # Search & Analysis Parameters
-          MAX_PAPERS_TO_ANALYZE: ${{ secrets.MAX_PAPERS_TO_ANALYZE || '5' }}
-          SEARCH_DAYS_BACK: ${{ secrets.SEARCH_DAYS_BACK || '30' }}
-          MIN_BORROWABILITY_SCORE: ${{ secrets.MIN_BORROWABILITY_SCORE || '0.5' }}
-          MAX_RESULTS_PER_QUERY: ${{ secrets.MAX_RESULTS_PER_QUERY || '20' }}
+          # Search & Analysis Parameters (edit these values directly in this file)
+          MAX_PAPERS_TO_ANALYZE: 10 # Number of papers to deeply analyze per search
+          SEARCH_DAYS_BACK: 600 ## How many days back to search for papers
+          MIN_BORROWABILITY_SCORE: 0.5 # Minimum score (0.0-1.0) to include paper in results
+          MAX_RESULTS_PER_QUERY: 20 # Maximum papers to fetch per query
           
           # Deep Search Configuration
-          TARGET_NEW_PAPERS: ${{ secrets.TARGET_NEW_PAPERS || '5' }}
-          MAX_PAGES_TO_SCAN: ${{ secrets.MAX_PAGES_TO_SCAN || '5' }}
+          TARGET_NEW_PAPERS: 10 # Target number of new papers to find per run
+          MAX_PAGES_TO_SCAN: 5 # Maximum pages to scan per query
           
           # Paper Tracking
-          PAPER_HISTORY_DAYS: ${{ secrets.PAPER_HISTORY_DAYS || '365' }}
+          PAPER_HISTORY_DAYS: 365 # How long to remember sent papers
           
           # LLM Configuration
-          LLM_TEMPERATURE: ${{ secrets.LLM_TEMPERATURE || '0.7' }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL || 'deepseek-chat' }}
+          LLM_TEMPERATURE: 0.7 # LLM creativity (0.0-1.0)
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'deepseek-reasoner' }}  # LLM model to use
         
         run: |
           echo "🎯 Starting Academic Radar in '${{ steps.set-mode.outputs.mode }}' mode"

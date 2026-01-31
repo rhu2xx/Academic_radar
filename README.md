@@ -147,15 +147,22 @@ Go to your repository on GitHub:
 
 **Settings → Secrets and variables → Actions → New repository secret**
 
-Add these secrets one by one:
+Add these secrets (only sensitive information - API keys and passwords):
 
 | Secret Name | Value | Example | Required |
 |-------------|-------|---------|----------|
 | `DEEPSEEK_API_KEY` | Your DeepSeek API key | `sk-abc123...` | ✅ Yes |
 | `OPENALEX_EMAIL` | Your email for OpenAlex | `you@email.com` | ✅ Yes |
+| `OPENALEX_API_KEY` | OpenAlex premium key | `abc123...` | ⚠️ Optional* |
 | `SMTP_USER` | Your Gmail address | `you@gmail.com` | ✅ Yes |
 | `SMTP_PASS` | Gmail app password (16 chars) | `abcd efgh ijkl mnop` | ✅ Yes |
 | `RECIPIENT_EMAIL` | Where to send reports | `you@email.com` | ✅ Yes |
+| `LLM_MODEL` | LLM model to use | `deepseek-reasoner` | ✅ Optional |
+
+_* `OPENALEX_API_KEY` is optional but recommended for higher rate limits (1M vs 100K requests/day)_
+
+**Note:** Configuration parameters like `MAX_PAPERS_TO_ANALYZE`, `SEARCH_DAYS_BACK`, etc. are NOT secrets. 
+Edit them directly in `.github/workflows/weekly_radar.yml` (see Step 3b below).
 
 <details>
 <summary><b>💡 How to Add Secrets (Click to expand)</b></summary>
@@ -164,7 +171,7 @@ Add these secrets one by one:
 2. Enter **Name** (e.g., `DEEPSEEK_API_KEY`)
 3. Enter **Secret** (paste your API key)
 4. Click **"Add secret"**
-5. Repeat for all 5 secrets
+5. Repeat for all 6 secrets (or 5 if skipping `OPENALEX_API_KEY`)
 
 **Screenshot Guide:**
 ```
@@ -175,7 +182,39 @@ Repository → Settings → Secrets and variables → Actions
 
 </details>
 
-#### Step 3: Enable GitHub Actions
+#### Step 3a: Customize Configuration (Optional)
+
+Edit `.github/workflows/weekly_radar.yml` to adjust search parameters:
+
+```yaml
+# Search & Analysis Parameters (edit these values directly)
+MAX_PAPERS_TO_ANALYZE: 10          # Number of papers to analyze
+SEARCH_DAYS_BACK: 600              # Search last 600 days
+MIN_BORROWABILITY_SCORE: 0.5       # Minimum relevance score
+MAX_RESULTS_PER_QUERY: 20          # Papers per query
+TARGET_NEW_PAPERS: 10               # Target new papers per search
+MAX_PAGES_TO_SCAN: 5               # Max pages to scan
+PAPER_HISTORY_DAYS: 365            # How long to remember sent papers
+LLM_TEMPERATURE: 0.7               # LLM creativity (0.0-1.0)
+
+```
+
+**To modify:**
+```bash
+# 1. Edit the workflow file
+vim .github/workflows/weekly_radar.yml
+
+# 2. Change the values (lines ~94-108)
+MAX_PAPERS_TO_ANALYZE: 20     # Increase to 20
+SEARCH_DAYS_BACK: 300         # Search last 300 days
+
+# 3. Commit and push
+git add .github/workflows/weekly_radar.yml
+git commit -m "Adjust search parameters"
+git push
+```
+
+#### Step 3b: Enable GitHub Actions
 
 1. Go to the **Actions** tab in your repository
 2. If prompted, click **"I understand my workflows, go ahead and enable them"**
@@ -202,7 +241,25 @@ The workflow runs **automatically every Monday at 9:00 AM UTC**.
 
 You can also run it manually anytime from the Actions tab.
 
+### 🔧 Configuration Management
 
+**Two types of configuration:**
+
+1. **Sensitive Data (Secrets)** - API keys, passwords
+   - Set in: GitHub Settings → Secrets
+   - Examples: `DEEPSEEK_API_KEY`, `SMTP_PASS`
+   - Private and encrypted
+
+2. **Search Parameters (Workflow File)** - Public configuration
+   - Set in: `.github/workflows/weekly_radar.yml`
+   - Examples: `MAX_PAPERS_TO_ANALYZE`, `SEARCH_DAYS_BACK`
+   - Version controlled and visible to all
+
+**When to edit which:**
+- Want more papers? → Edit `MAX_PAPERS_TO_ANALYZE` in workflow file
+- Changed API key? → Update secret in GitHub Settings
+- Adjust search period? → Edit `SEARCH_DAYS_BACK` in workflow file
+- New email? → Update `RECIPIENT_EMAIL` secret
 
 ### 📅 Customizing Schedule
 
