@@ -42,6 +42,56 @@ SMTP_PASS=your_app_password
 RECIPIENT_EMAIL=your@email.com
 ```
 
+<details>
+<summary><b>📖 How to Get API Keys</b></summary>
+
+#### 🤖 DeepSeek API Key (Recommended - Cheapest)
+
+1. Go to [platform.deepseek.com](https://platform.deepseek.com)
+2. Sign up and verify your email
+3. Navigate to **API Keys** section
+4. Click **Create API Key**
+5. Copy the key (starts with `sk-...`)
+6. **Cost:** ~$0.14 per million tokens (cheapest option)
+
+#### 🔍 OpenAlex Email (Required for Fast Access)
+
+1. Use any valid email address
+2. Add to `.env`: `OPENALEX_EMAIL=your@email.com`
+3. This gives you **10x faster API access** (100 req/sec vs 10 req/sec)
+4. **Optional:** Get premium API key at [openalex.org/account](https://openalex.org/account) for 1M daily requests
+
+#### 📧 Gmail SMTP Password (For Email Notifications)
+
+1. Go to [myaccount.google.com](https://myaccount.google.com)
+2. Enable **2-Step Verification** (required)
+3. Search for **App Passwords** in settings
+4. Select **Mail** and your device
+5. Click **Generate** - copy the 16-character password
+6. Use this password in `.env` (NOT your regular Gmail password)
+
+**Troubleshooting:**
+- If you don't see "App Passwords", enable 2FA first
+- Gmail blocks regular passwords for security
+
+#### Alternative LLM Providers
+
+**OpenAI (More Expensive):**
+1. Go to [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+2. Create account and add payment method
+3. Click **Create new secret key**
+4. Set `.env`: `LLM_PROVIDER=openai` and `OPENAI_API_KEY=sk-...`
+5. **Cost:** ~$10 per million tokens
+
+**Anthropic Claude:**
+1. Go to [console.anthropic.com](https://console.anthropic.com)
+2. Sign up and verify
+3. Navigate to **API Keys**
+4. Set `.env`: `LLM_PROVIDER=anthropic` and `ANTHROPIC_API_KEY=sk-...`
+5. **Cost:** ~$15 per million tokens
+
+</details>
+
 ### 3. Create Your Profile
 
 ```bash
