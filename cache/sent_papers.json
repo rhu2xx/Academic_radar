@@ -9,7 +9,17 @@
     "https://openalex.org/W4414124463": "2026-01-31T10:59:35.561553",
     "https://openalex.org/W4414193581": "2026-01-31T10:59:35.561553",
     "https://openalex.org/W4414250697": "2026-01-31T10:59:35.561553",
-    "https://openalex.org/W4414347317": "2026-01-31T10:59:35.561553"
+    "https://openalex.org/W4414347317": "2026-01-31T10:59:35.561553",
+    "https://openalex.org/W4416543445": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4415087945": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414333317": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414175618": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414422537": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4416381260": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414297944": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414304556": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414304210": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4414199863": "2026-02-02T09:53:59.251134"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -21,6 +31,16 @@
     "a quantum frequencydomain framework for image transmission with threequbit error correction": "2026-01-31T10:59:35.561553",
     "spatiotemporal learning for motion estimation and visual recognition": "2026-01-31T10:59:35.561553",
     "parametric art creation platform design based on visual delivery and multimedia data fusion": "2026-01-31T10:59:35.561553",
-    "resilient statespace network a dynamically adaptive framework for nonlinear modelling of temporal dependencies": "2026-01-31T10:59:35.561553"
+    "resilient statespace network a dynamically adaptive framework for nonlinear modelling of temporal dependencies": "2026-01-31T10:59:35.561553",
+    "radmamba efficient human activity recognition through a radarbased microdoppleroriented mamba statespace model": "2026-02-02T09:53:59.251134",
+    "aqua attention via query magnitudes for memory and compute efficient inference in llms": "2026-02-02T09:53:59.251134",
+    "an interdisciplinary review on application of graph theory": "2026-02-02T09:53:59.251134",
+    "overlays for 4x4 matrix multiplication peeling valueaware collapse and bitsliced zeromultiply paths": "2026-02-02T09:53:59.251134",
+    "recovering hidden degrees of freedom using gaussian processes": "2026-02-02T09:53:59.251134",
+    "dlio 6dof direct lidarinertial odometry based on simultaneous truncated distance field mapping": "2026-02-02T09:53:59.251134",
+    "dynaflownet flow matchingenabled realtime imaging through dynamic scattering media": "2026-02-02T09:53:59.251134",
+    "a novel multilayer semantic chunking and embedding dimension transformation techniques for enhanced retrieval augmented generation": "2026-02-02T09:53:59.251134",
+    "physicsinformed machine learning for intelligent gas turbine digital twins a review": "2026-02-02T09:53:59.251134",
+    "enhancing decisionmaking in art education through a genetic algorithmoptimized kmeans clustering model": "2026-02-02T09:53:59.251134"
   }
 }
