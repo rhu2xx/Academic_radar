@@ -19,7 +19,17 @@
     "https://openalex.org/W4414297944": "2026-02-02T09:53:59.251134",
     "https://openalex.org/W4414304556": "2026-02-02T09:53:59.251134",
     "https://openalex.org/W4414304210": "2026-02-02T09:53:59.251134",
-    "https://openalex.org/W4414199863": "2026-02-02T09:53:59.251134"
+    "https://openalex.org/W4414199863": "2026-02-02T09:53:59.251134",
+    "https://openalex.org/W4416067620": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4414153834": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4415850574": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4414098964": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4415285677": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4415007629": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4414206110": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4414094488": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4414103251": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W4414127891": "2026-02-09T10:09:08.947471"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -41,6 +51,16 @@
     "dynaflownet flow matchingenabled realtime imaging through dynamic scattering media": "2026-02-02T09:53:59.251134",
     "a novel multilayer semantic chunking and embedding dimension transformation techniques for enhanced retrieval augmented generation": "2026-02-02T09:53:59.251134",
     "physicsinformed machine learning for intelligent gas turbine digital twins a review": "2026-02-02T09:53:59.251134",
-    "enhancing decisionmaking in art education through a genetic algorithmoptimized kmeans clustering model": "2026-02-02T09:53:59.251134"
+    "enhancing decisionmaking in art education through a genetic algorithmoptimized kmeans clustering model": "2026-02-02T09:53:59.251134",
+    "reaping the fruits of llm pruning towards small language models for efficient noncoding variant effect prediction": "2026-02-09T10:09:08.947471",
+    "parallelization of the koopman operator based on cuda and its application in multidimensional flight trajectory prediction": "2026-02-09T10:09:08.947471",
+    "optimizing general sparse matrixmatrix multiplication on the gpu": "2026-02-09T10:09:08.947471",
+    "evaluating filter wrapper and embedded feature selection approaches for encrypted video traffic classification": "2026-02-09T10:09:08.947471",
+    "orches orchestrated testtimecomputebased llm reasoning on collaborative gpupim heterogeneous system": "2026-02-09T10:09:08.947471",
+    "exploring the theory and practice of concurrency in the entitycomponentsystem pattern": "2026-02-09T10:09:08.947471",
+    "building a large language model for the human resource services in malaysia": "2026-02-09T10:09:08.947471",
+    "accelerating imiinvariance for continuous big data publishing": "2026-02-09T10:09:08.947471",
+    "frontiers in artificial intelligence algorithm optimization a comprehensive review of trainingtime and inferencetime advances": "2026-02-09T10:09:08.947471",
+    "enhancing sql query performance a case study on optimizing enterprise data processing": "2026-02-09T10:09:08.947471"
   }
 }
