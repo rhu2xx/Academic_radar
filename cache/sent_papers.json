@@ -29,7 +29,17 @@
     "https://openalex.org/W4414206110": "2026-02-09T10:09:08.947471",
     "https://openalex.org/W4414094488": "2026-02-09T10:09:08.947471",
     "https://openalex.org/W4414103251": "2026-02-09T10:09:08.947471",
-    "https://openalex.org/W4414127891": "2026-02-09T10:09:08.947471"
+    "https://openalex.org/W4414127891": "2026-02-09T10:09:08.947471",
+    "https://openalex.org/W7125828205": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4413792188": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4416051423": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4413943347": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4415326873": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4414030131": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4413966496": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4412529741": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4412083252": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4412410315": "2026-02-16T09:54:01.943593"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -61,6 +71,16 @@
     "building a large language model for the human resource services in malaysia": "2026-02-09T10:09:08.947471",
     "accelerating imiinvariance for continuous big data publishing": "2026-02-09T10:09:08.947471",
     "frontiers in artificial intelligence algorithm optimization a comprehensive review of trainingtime and inferencetime advances": "2026-02-09T10:09:08.947471",
-    "enhancing sql query performance a case study on optimizing enterprise data processing": "2026-02-09T10:09:08.947471"
+    "enhancing sql query performance a case study on optimizing enterprise data processing": "2026-02-09T10:09:08.947471",
+    "matxtract sparsityaware matrix transformation via cascaded compute density extraction for spmv": "2026-02-16T09:54:01.943593",
+    "qinfer towards efficient gpucpu collaborative llm inference via sparsityaware dynamic scheduling": "2026-02-16T09:54:01.943593",
+    "metatensor and metatomic foundational libraries for interoperable atomistic machine learning": "2026-02-16T09:54:01.943593",
+    "improved algorithms and novel applications of the frankwolfejl library": "2026-02-16T09:54:01.943593",
+    "balanced and elastic endtoend training of dynamic llms": "2026-02-16T09:54:01.943593",
+    "traditional and machine learning approaches to partial differential equations a critical review of methods tradeoffs and integration": "2026-02-16T09:54:01.943593",
+    "the enduring relevance of semiempirical quantum mechanics": "2026-02-16T09:54:01.943593",
+    "relational pretraining for the next generation of graph intelligence": "2026-02-16T09:54:01.943593",
+    "multiscale attention fusion gesturerecognition algorithm based on strain sensors": "2026-02-16T09:54:01.943593",
+    "optimization communication and personalization in federated learning for massive networks": "2026-02-16T09:54:01.943593"
   }
 }
