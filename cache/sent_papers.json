@@ -39,7 +39,17 @@
     "https://openalex.org/W4413966496": "2026-02-16T09:54:01.943593",
     "https://openalex.org/W4412529741": "2026-02-16T09:54:01.943593",
     "https://openalex.org/W4412083252": "2026-02-16T09:54:01.943593",
-    "https://openalex.org/W4412410315": "2026-02-16T09:54:01.943593"
+    "https://openalex.org/W4412410315": "2026-02-16T09:54:01.943593",
+    "https://openalex.org/W4416138699": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4414043355": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4412876929": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4415330570": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4414111717": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4413381037": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4413789623": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4415239219": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4414282653": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4413132893": "2026-02-23T10:00:41.088376"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -81,6 +91,16 @@
     "the enduring relevance of semiempirical quantum mechanics": "2026-02-16T09:54:01.943593",
     "relational pretraining for the next generation of graph intelligence": "2026-02-16T09:54:01.943593",
     "multiscale attention fusion gesturerecognition algorithm based on strain sensors": "2026-02-16T09:54:01.943593",
-    "optimization communication and personalization in federated learning for massive networks": "2026-02-16T09:54:01.943593"
+    "optimization communication and personalization in federated learning for massive networks": "2026-02-16T09:54:01.943593",
+    "power law guided dynamic sifting for efficient attention": "2026-02-23T10:00:41.088376",
+    "leveraging bilateral temporal selfattention biltsm networks for realtime scam call and cyber fraud detection methods applications and performance evaluation": "2026-02-23T10:00:41.088376",
+    "fedmetro efficient metro passenger flow prediction via federated graph learning": "2026-02-23T10:00:41.088376",
+    "graph alignment via dualpass spectral encoding and latent space communication": "2026-02-23T10:00:41.088376",
+    "recent advances in sensor fusion monitoring and control strategies in laser powder bed fusion a review": "2026-02-23T10:00:41.088376",
+    "bislearner blockaware index selection using attentionbased reinforcement learning for data analytics": "2026-02-23T10:00:41.088376",
+    "highresolution 3d shape matching with global optimality and geometric consistency": "2026-02-23T10:00:41.088376",
+    "online incident response planning under model misspecification through bayesian learning and belief quantization": "2026-02-23T10:00:41.088376",
+    "a radar waveform design method based on multicarrier phase coding for suppressing autocorrelation sidelobes": "2026-02-23T10:00:41.088376",
+    "physicsinformed surrogate modelling in fire safety engineering a systematic review": "2026-02-23T10:00:41.088376"
   }
 }
