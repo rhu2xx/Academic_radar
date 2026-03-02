@@ -49,7 +49,17 @@
     "https://openalex.org/W4413789623": "2026-02-23T10:00:41.088376",
     "https://openalex.org/W4415239219": "2026-02-23T10:00:41.088376",
     "https://openalex.org/W4414282653": "2026-02-23T10:00:41.088376",
-    "https://openalex.org/W4413132893": "2026-02-23T10:00:41.088376"
+    "https://openalex.org/W4413132893": "2026-02-23T10:00:41.088376",
+    "https://openalex.org/W4414587950": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W7128394352": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W4414932055": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W7128582466": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W7118554639": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W4416017633": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W4415014309": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W7116294562": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W4416681840": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W7131436463": "2026-03-02T09:57:39.846607"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -101,6 +111,16 @@
     "highresolution 3d shape matching with global optimality and geometric consistency": "2026-02-23T10:00:41.088376",
     "online incident response planning under model misspecification through bayesian learning and belief quantization": "2026-02-23T10:00:41.088376",
     "a radar waveform design method based on multicarrier phase coding for suppressing autocorrelation sidelobes": "2026-02-23T10:00:41.088376",
-    "physicsinformed surrogate modelling in fire safety engineering a systematic review": "2026-02-23T10:00:41.088376"
+    "physicsinformed surrogate modelling in fire safety engineering a systematic review": "2026-02-23T10:00:41.088376",
+    "requirements coverageguided minimization for natural language test cases": "2026-03-02T09:57:39.846607",
+    "acceleration of solvers for plasma simulation in the tokamak boundary": "2026-03-02T09:57:39.846607",
+    "universal audio generation": "2026-03-02T09:57:39.846607",
+    "energy efficient computinginmemory accelerators for deep learning": "2026-03-02T09:57:39.846607",
+    "bridging neuromorphic computing and deep learning for nextgeneration neural data interpretation": "2026-03-02T09:57:39.846607",
+    "evoformer learning dynamic graphlevel representations with structural and temporal bias correction": "2026-03-02T09:57:39.846607",
+    "efficient knowledge graph unlearning with zerothorder information": "2026-03-02T09:57:39.846607",
+    "nondestructive early bruise detection of blueberries based on hyperspectral image feature fusion pkoasvm model": "2026-03-02T09:57:39.846607",
+    "constrained random phase approximation the spectral method": "2026-03-02T09:57:39.846607",
+    "macroeconometricmodelsjl": "2026-03-02T09:57:39.846607"
   }
 }
