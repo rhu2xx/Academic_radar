@@ -59,7 +59,17 @@
     "https://openalex.org/W4415014309": "2026-03-02T09:57:39.846607",
     "https://openalex.org/W7116294562": "2026-03-02T09:57:39.846607",
     "https://openalex.org/W4416681840": "2026-03-02T09:57:39.846607",
-    "https://openalex.org/W7131436463": "2026-03-02T09:57:39.846607"
+    "https://openalex.org/W7131436463": "2026-03-02T09:57:39.846607",
+    "https://openalex.org/W7134063303": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7133315333": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7130935369": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7133845086": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W3005797493": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7131654434": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7129011034": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7133556284": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7128235580": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7128018295": "2026-03-09T10:04:52.588308"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -121,6 +131,16 @@
     "efficient knowledge graph unlearning with zerothorder information": "2026-03-02T09:57:39.846607",
     "nondestructive early bruise detection of blueberries based on hyperspectral image feature fusion pkoasvm model": "2026-03-02T09:57:39.846607",
     "constrained random phase approximation the spectral method": "2026-03-02T09:57:39.846607",
-    "macroeconometricmodelsjl": "2026-03-02T09:57:39.846607"
+    "macroeconometricmodelsjl": "2026-03-02T09:57:39.846607",
+    "active sonar target detection in lowsir complex marine environments via controllable simulation and spatiotemporal energy structure feature perception": "2026-03-09T10:04:52.588308",
+    "vectorized sparse secondorder forward automatic differentiation for optimal control direct methods": "2026-03-09T10:04:52.588308",
+    "sidwa synthetic image detection based on discrete wavelet transform stem and deformable sliding window crossattention": "2026-03-09T10:04:52.588308",
+    "hybrid transformer and physicsinformed neural operator for correcting tempo no2 biases over north america": "2026-03-09T10:04:52.588308",
+    "utilising reduced file representations to facilitate fast contraband detection": "2026-03-09T10:04:52.588308",
+    "an introduction to surrogate modeling and response surface methodology in engineering design optimization": "2026-03-09T10:04:52.588308",
+    "megg replay via maximally extreme ggscore in incremental learning for neural recommendation models": "2026-03-09T10:04:52.588308",
+    "directivity maximization of difference patterns for monopulse microstrip patch arrays with sidelobe constraints": "2026-03-09T10:04:52.588308",
+    "an indepth review of speech enhancement algorithms classifications underlying principles challenges and emerging trends": "2026-03-09T10:04:52.588308",
+    "eventchain monte carlo the globalbalance breakthrough": "2026-03-09T10:04:52.588308"
   }
 }
