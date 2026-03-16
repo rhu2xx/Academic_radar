@@ -69,7 +69,17 @@
     "https://openalex.org/W7129011034": "2026-03-09T10:04:52.588308",
     "https://openalex.org/W7133556284": "2026-03-09T10:04:52.588308",
     "https://openalex.org/W7128235580": "2026-03-09T10:04:52.588308",
-    "https://openalex.org/W7128018295": "2026-03-09T10:04:52.588308"
+    "https://openalex.org/W7128018295": "2026-03-09T10:04:52.588308",
+    "https://openalex.org/W7135205497": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7135019054": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7133346829": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7135221746": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7134224620": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7134267210": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7133515015": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7133219080": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7133521754": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7133304928": "2026-03-16T10:29:13.270775"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -141,6 +151,16 @@
     "megg replay via maximally extreme ggscore in incremental learning for neural recommendation models": "2026-03-09T10:04:52.588308",
     "directivity maximization of difference patterns for monopulse microstrip patch arrays with sidelobe constraints": "2026-03-09T10:04:52.588308",
     "an indepth review of speech enhancement algorithms classifications underlying principles challenges and emerging trends": "2026-03-09T10:04:52.588308",
-    "eventchain monte carlo the globalbalance breakthrough": "2026-03-09T10:04:52.588308"
+    "eventchain monte carlo the globalbalance breakthrough": "2026-03-09T10:04:52.588308",
+    "tensorbased doa estimation for hybrid scalarvector sensor arrays": "2026-03-16T10:29:13.270775",
+    "equivariant electronic hamiltonian prediction with manybody message passing": "2026-03-16T10:29:13.270775",
+    "a mathematical framework for modeling global value chain networks": "2026-03-16T10:29:13.270775",
+    "degenerate quantum erasure decoding": "2026-03-16T10:29:13.270775",
+    "global anchorguided local anchor learning for multiview clustering": "2026-03-16T10:29:13.270775",
+    "georce a fast new control algorithm for computing geodesics": "2026-03-16T10:29:13.270775",
+    "fusing geometric and semantic features via cosine similarity crossattention for remote sensing scene classification": "2026-03-16T10:29:13.270775",
+    "3dvitgat a unified atlasbased 3d vision transformer and graph learning framework for major depressive disorder detection using structural mri data": "2026-03-16T10:29:13.270775",
+    "bridging physics and data in metal powder bed fusion with scientific machine learning": "2026-03-16T10:29:13.270775",
+    "scubediver a visual analytics tool for discovering optimal 2 2 2 rubiks cube solution sequences": "2026-03-16T10:29:13.270775"
   }
 }
