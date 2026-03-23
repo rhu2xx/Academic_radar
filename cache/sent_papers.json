@@ -79,7 +79,17 @@
     "https://openalex.org/W7133515015": "2026-03-16T10:29:13.270775",
     "https://openalex.org/W7133219080": "2026-03-16T10:29:13.270775",
     "https://openalex.org/W7133521754": "2026-03-16T10:29:13.270775",
-    "https://openalex.org/W7133304928": "2026-03-16T10:29:13.270775"
+    "https://openalex.org/W7133304928": "2026-03-16T10:29:13.270775",
+    "https://openalex.org/W7138912016": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7138985185": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7138871208": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7138849513": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7139915838": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7140030779": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7139961243": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7138834222": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7138874426": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7139014715": "2026-03-23T10:11:56.787679"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -161,6 +171,16 @@
     "fusing geometric and semantic features via cosine similarity crossattention for remote sensing scene classification": "2026-03-16T10:29:13.270775",
     "3dvitgat a unified atlasbased 3d vision transformer and graph learning framework for major depressive disorder detection using structural mri data": "2026-03-16T10:29:13.270775",
     "bridging physics and data in metal powder bed fusion with scientific machine learning": "2026-03-16T10:29:13.270775",
-    "scubediver a visual analytics tool for discovering optimal 2 2 2 rubiks cube solution sequences": "2026-03-16T10:29:13.270775"
+    "scubediver a visual analytics tool for discovering optimal 2 2 2 rubiks cube solution sequences": "2026-03-16T10:29:13.270775",
+    "fedltncubesat neurosymbolic federated learning for intrusion detection in leo cubesat constellations": "2026-03-23T10:11:56.787679",
+    "promixdgnet a processaware spatiotemporal network for sintering system prediction": "2026-03-23T10:11:56.787679",
+    "structureaware deep reinforcement learning for latencyminimal scheduling of edge ai inference on heterogeneous cores": "2026-03-23T10:11:56.787679",
+    "triview adaptive contrastive for bundle recommendation": "2026-03-23T10:11:56.787679",
+    "spatial relation reasoning based on keypoints for railway intrusion detection and risk assessment": "2026-03-23T10:11:56.787679",
+    "revisiting adaptive patches for mesh denoising": "2026-03-23T10:11:56.787679",
+    "classification of fallers and nonfallers in older adults using electrical imu signal for gait analysis and explainable deep learning": "2026-03-23T10:11:56.787679",
+    "devsa a densityefficient vector snn accelerator exploiting compressortreereuse for spikeweight accumulation": "2026-03-23T10:11:56.787679",
+    "a recognition framework for personalized trip chain feature map of hazardous materials transport vehicles": "2026-03-23T10:11:56.787679",
+    "a guided deep learning framework for speckle noise removal using autoencoders": "2026-03-23T10:11:56.787679"
   }
 }
