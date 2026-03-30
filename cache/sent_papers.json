@@ -89,7 +89,17 @@
     "https://openalex.org/W7139961243": "2026-03-23T10:11:56.787679",
     "https://openalex.org/W7138834222": "2026-03-23T10:11:56.787679",
     "https://openalex.org/W7138874426": "2026-03-23T10:11:56.787679",
-    "https://openalex.org/W7139014715": "2026-03-23T10:11:56.787679"
+    "https://openalex.org/W7139014715": "2026-03-23T10:11:56.787679",
+    "https://openalex.org/W7141402761": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141376090": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141049147": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141641900": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141551348": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141847519": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141400664": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141610540": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7142432107": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7141696562": "2026-03-30T10:28:59.816980"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -181,6 +191,16 @@
     "classification of fallers and nonfallers in older adults using electrical imu signal for gait analysis and explainable deep learning": "2026-03-23T10:11:56.787679",
     "devsa a densityefficient vector snn accelerator exploiting compressortreereuse for spikeweight accumulation": "2026-03-23T10:11:56.787679",
     "a recognition framework for personalized trip chain feature map of hazardous materials transport vehicles": "2026-03-23T10:11:56.787679",
-    "a guided deep learning framework for speckle noise removal using autoencoders": "2026-03-23T10:11:56.787679"
+    "a guided deep learning framework for speckle noise removal using autoencoders": "2026-03-23T10:11:56.787679",
+    "smart spatial multiomic aggregation using graph neural networks and metric learning": "2026-03-30T10:28:59.816980",
+    "robust long shortterm memoryenabled beamforming for cellfree massive mimos in 6g networks": "2026-03-30T10:28:59.816980",
+    "early detection of shortterm performance degradation in electric vehicle lithiumion batteries via physicsguided multisensor fusion and deep learning": "2026-03-30T10:28:59.816980",
+    "deep computerized adaptive testing": "2026-03-30T10:28:59.816980",
+    "3danet a dualattentionbased network integrating global and local context for enhanced 3d object detection": "2026-03-30T10:28:59.816980",
+    "hybrid evolutionaryoptimization methods for furnace design decisions in glass container industry": "2026-03-30T10:28:59.816980",
+    "sdgrnet a spatiotemporally decoupled gated residual network for robust multistate hdd health prediction": "2026-03-30T10:28:59.816980",
+    "continuous emotion recognition using edagraphs a graph signal processing approach for affective dimension estimation": "2026-03-30T10:28:59.816980",
+    "unifying theories in highdimensional biophysics approaches challenges and opportunities": "2026-03-30T10:28:59.816980",
+    "emdic physicsinformed conditional diffusion denoising for frequencydomain electromagnetic signals": "2026-03-30T10:28:59.816980"
   }
 }
