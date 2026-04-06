@@ -99,7 +99,17 @@
     "https://openalex.org/W7141400664": "2026-03-30T10:28:59.816980",
     "https://openalex.org/W7141610540": "2026-03-30T10:28:59.816980",
     "https://openalex.org/W7142432107": "2026-03-30T10:28:59.816980",
-    "https://openalex.org/W7141696562": "2026-03-30T10:28:59.816980"
+    "https://openalex.org/W7141696562": "2026-03-30T10:28:59.816980",
+    "https://openalex.org/W7148515086": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7147643794": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7148620179": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7147632887": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7147107324": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7147107197": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7148550768": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7147094851": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7147555551": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7148254046": "2026-04-06T10:14:42.598079"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -201,6 +211,16 @@
     "sdgrnet a spatiotemporally decoupled gated residual network for robust multistate hdd health prediction": "2026-03-30T10:28:59.816980",
     "continuous emotion recognition using edagraphs a graph signal processing approach for affective dimension estimation": "2026-03-30T10:28:59.816980",
     "unifying theories in highdimensional biophysics approaches challenges and opportunities": "2026-03-30T10:28:59.816980",
-    "emdic physicsinformed conditional diffusion denoising for frequencydomain electromagnetic signals": "2026-03-30T10:28:59.816980"
+    "emdic physicsinformed conditional diffusion denoising for frequencydomain electromagnetic signals": "2026-03-30T10:28:59.816980",
+    "cfmamba a dualpath collaborative method for hyperspectral image classification": "2026-04-06T10:14:42.598079",
+    "multiscale optimal transport transformer for efficient exemplarbased image translation": "2026-04-06T10:14:42.598079",
+    "degradation of benzoapyrene by rhodococcus sp pds1 under combined pollution of arsenic and polycyclic aromatic hydrocarbons": "2026-04-06T10:14:42.598079",
+    "enhancing multilevel spatiotemporal forecasting of adjudicated crime occurrence trends in indonesia": "2026-04-06T10:14:42.598079",
+    "a stable rolling forecast for renewable energy generation based on a neural ordinary differential equation": "2026-04-06T10:14:42.598079",
+    "permutationbased multiobjective evolutionary feature selection for highdimensional data": "2026-04-06T10:14:42.598079",
+    "endtoend personalization via unifying llm agents and graph attention networks for entertainment recommendation": "2026-04-06T10:14:42.598079",
+    "a spatiotemporal attentionbased multiagent deep reinforcement learning approach for collaborative community energy trading": "2026-04-06T10:14:42.598079",
+    "electricity consumption prediction using an advanced spatialtemporal deep learning framework": "2026-04-06T10:14:42.598079",
+    "an adaptive differential privacy framework for clinical llms with contextaware noise calibration hierarchical budgeting and realtime auditing": "2026-04-06T10:14:42.598079"
   }
 }
