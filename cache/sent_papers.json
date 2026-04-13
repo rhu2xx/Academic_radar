@@ -109,7 +109,17 @@
     "https://openalex.org/W7148550768": "2026-04-06T10:14:42.598079",
     "https://openalex.org/W7147094851": "2026-04-06T10:14:42.598079",
     "https://openalex.org/W7147555551": "2026-04-06T10:14:42.598079",
-    "https://openalex.org/W7148254046": "2026-04-06T10:14:42.598079"
+    "https://openalex.org/W7148254046": "2026-04-06T10:14:42.598079",
+    "https://openalex.org/W7152681328": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7134263108": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7118952011": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7125836103": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7133215063": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7125800696": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7135216882": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7128304361": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7126111713": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7118071425": "2026-04-13T10:39:23.202070"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -221,6 +231,16 @@
     "endtoend personalization via unifying llm agents and graph attention networks for entertainment recommendation": "2026-04-06T10:14:42.598079",
     "a spatiotemporal attentionbased multiagent deep reinforcement learning approach for collaborative community energy trading": "2026-04-06T10:14:42.598079",
     "electricity consumption prediction using an advanced spatialtemporal deep learning framework": "2026-04-06T10:14:42.598079",
-    "an adaptive differential privacy framework for clinical llms with contextaware noise calibration hierarchical budgeting and realtime auditing": "2026-04-06T10:14:42.598079"
+    "an adaptive differential privacy framework for clinical llms with contextaware noise calibration hierarchical budgeting and realtime auditing": "2026-04-06T10:14:42.598079",
+    "fused ensembles of dynamicrupture earthquake simulations to accelerate bayesian inference": "2026-04-13T10:39:23.202070",
+    "the bsra framework for dual sparse parameter efficient fine tuning with block structured gating and rank adaptation": "2026-04-13T10:39:23.202070",
+    "a fast accurate and oscillationfree spectral collocation solver for highdimensional transport problems": "2026-04-13T10:39:23.202070",
+    "flexible performant tensor contractions on gpus": "2026-04-13T10:39:23.202070",
+    "formulation of an efficient o imi sup4sup scaling explicitly correlated mp2f12 correction by combining numerical quadrature with density fitting and cabsri": "2026-04-13T10:39:23.202070",
+    "hierarchical caching for agentic workflows a multilevel architecture to reduce tool execution overhead": "2026-04-13T10:39:23.202070",
+    "a cascade framework for ondevice uncertaintyaware event detection on microcontrollers": "2026-04-13T10:39:23.202070",
+    "dynamic microbatch and tokenbudget scheduling for iotscale pipelineparallel llm inference": "2026-04-13T10:39:23.202070",
+    "simulationbased inference of cell migration dynamics in complex spatial environments": "2026-04-13T10:39:23.202070",
+    "spatialdino a selfsupervised 3d vision transformer that enables segmentation and tracking in crowded cellular environments": "2026-04-13T10:39:23.202070"
   }
 }
