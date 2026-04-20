@@ -119,7 +119,17 @@
     "https://openalex.org/W7135216882": "2026-04-13T10:39:23.202070",
     "https://openalex.org/W7128304361": "2026-04-13T10:39:23.202070",
     "https://openalex.org/W7126111713": "2026-04-13T10:39:23.202070",
-    "https://openalex.org/W7118071425": "2026-04-13T10:39:23.202070"
+    "https://openalex.org/W7118071425": "2026-04-13T10:39:23.202070",
+    "https://openalex.org/W7154712876": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154706834": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154854474": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154739774": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154750806": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154685956": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154746514": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154731674": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154698996": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7154914566": "2026-04-20T10:57:44.031818"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -241,6 +251,16 @@
     "a cascade framework for ondevice uncertaintyaware event detection on microcontrollers": "2026-04-13T10:39:23.202070",
     "dynamic microbatch and tokenbudget scheduling for iotscale pipelineparallel llm inference": "2026-04-13T10:39:23.202070",
     "simulationbased inference of cell migration dynamics in complex spatial environments": "2026-04-13T10:39:23.202070",
-    "spatialdino a selfsupervised 3d vision transformer that enables segmentation and tracking in crowded cellular environments": "2026-04-13T10:39:23.202070"
+    "spatialdino a selfsupervised 3d vision transformer that enables segmentation and tracking in crowded cellular environments": "2026-04-13T10:39:23.202070",
+    "mambakan an interpretable framework for alzheimers disease diagnosis via selective state space modeling of dynamic functional connectivity": "2026-04-20T10:57:44.031818",
+    "differentiable superpixel generation with complexityaware initialization and edge reconstruction for sar imagery": "2026-04-20T10:57:44.031818",
+    "ombnnet a resourceefficient fpgabased obfuscated malware detection method using binarized neural network": "2026-04-20T10:57:44.031818",
+    "v2vsl infrastructurefree decentralized variable speed limit control": "2026-04-20T10:57:44.031818",
+    "performance evaluation of zksnark protocols for privacypreserving sensor data verification a systematic benchmarking study": "2026-04-20T10:57:44.031818",
+    "onorbit space ai federated multiagent and collaborative algorithms for satellite constellations": "2026-04-20T10:57:44.031818",
+    "fewshot bearing fault diagnosis based on multilayer feature fusion and similarity measurement": "2026-04-20T10:57:44.031818",
+    "temporal convolutional network architectures a novel simultaneous spatiotemporal model for comparative analysis": "2026-04-20T10:57:44.031818",
+    "waveletbased and mamldriven framework for enhanced fewshot malware classification": "2026-04-20T10:57:44.031818",
+    "a triplebranch multiscale network for realtime semantic segmentation": "2026-04-20T10:57:44.031818"
   }
 }
