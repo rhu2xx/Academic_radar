@@ -129,7 +129,17 @@
     "https://openalex.org/W7154746514": "2026-04-20T10:57:44.031818",
     "https://openalex.org/W7154731674": "2026-04-20T10:57:44.031818",
     "https://openalex.org/W7154698996": "2026-04-20T10:57:44.031818",
-    "https://openalex.org/W7154914566": "2026-04-20T10:57:44.031818"
+    "https://openalex.org/W7154914566": "2026-04-20T10:57:44.031818",
+    "https://openalex.org/W7133481372": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7130832729": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7130488025": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W4416223687": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7154714796": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W4386270371": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7131360581": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W4415337465": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7118127604": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7153034998": "2026-04-27T11:01:47.244614"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -261,6 +271,16 @@
     "fewshot bearing fault diagnosis based on multilayer feature fusion and similarity measurement": "2026-04-20T10:57:44.031818",
     "temporal convolutional network architectures a novel simultaneous spatiotemporal model for comparative analysis": "2026-04-20T10:57:44.031818",
     "waveletbased and mamldriven framework for enhanced fewshot malware classification": "2026-04-20T10:57:44.031818",
-    "a triplebranch multiscale network for realtime semantic segmentation": "2026-04-20T10:57:44.031818"
+    "a triplebranch multiscale network for realtime semantic segmentation": "2026-04-20T10:57:44.031818",
+    "aqpim breaking the pim capacity wall for llms with inmemory activation quantization": "2026-04-27T11:01:47.244614",
+    "compact transformer variants for synthetic time series forecasting": "2026-04-27T11:01:47.244614",
+    "zastosowanie przybli\u017conych metod zw\u0119\u017cania sieci tensorowych dla dyskretnych problem\u00f3w optymalizacyjnych": "2026-04-27T11:01:47.244614",
+    "exploring the performance of superposition of product states from onedimensional to threedimensional quantum spin systems": "2026-04-27T11:01:47.244614",
+    "accelerating density fitting with adaptive precision and 8bit integer on ai accelerators": "2026-04-27T11:01:47.244614",
+    "computationefficient deep learning for computer vision a survey": "2026-04-27T11:01:47.244614",
+    "fast fractal image compression using nonuniform partition": "2026-04-27T11:01:47.244614",
+    "vivaldy a hybrid generative reducedorder model for turbulent flows applied to vortexinduced vibrations": "2026-04-27T11:01:47.244614",
+    "prediction of molecular structures and properties by using quantum technology": "2026-04-27T11:01:47.244614",
+    "computing quantum magic of state vectors": "2026-04-27T11:01:47.244614"
   }
 }
