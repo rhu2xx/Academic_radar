@@ -139,7 +139,17 @@
     "https://openalex.org/W7131360581": "2026-04-27T11:01:47.244614",
     "https://openalex.org/W4415337465": "2026-04-27T11:01:47.244614",
     "https://openalex.org/W7118127604": "2026-04-27T11:01:47.244614",
-    "https://openalex.org/W7153034998": "2026-04-27T11:01:47.244614"
+    "https://openalex.org/W7153034998": "2026-04-27T11:01:47.244614",
+    "https://openalex.org/W7155486285": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7157166003": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7158156855": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7157954643": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7159897105": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W4402705702": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7157154017": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7157046275": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7156175730": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7156918637": "2026-05-04T11:07:20.608272"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -281,6 +291,16 @@
     "fast fractal image compression using nonuniform partition": "2026-04-27T11:01:47.244614",
     "vivaldy a hybrid generative reducedorder model for turbulent flows applied to vortexinduced vibrations": "2026-04-27T11:01:47.244614",
     "prediction of molecular structures and properties by using quantum technology": "2026-04-27T11:01:47.244614",
-    "computing quantum magic of state vectors": "2026-04-27T11:01:47.244614"
+    "computing quantum magic of state vectors": "2026-04-27T11:01:47.244614",
+    "automatic chick cough detection system based on improved audio spectrogram convolutional transformer neural network": "2026-05-04T11:07:20.608272",
+    "aggressive guided exploitation optimized sparsedual attention enabled metalearningbased deep learning model for quantum error correction": "2026-05-04T11:07:20.608272",
+    "gansu a gpunative quantum chemistry framework for efficient hartreefock and posthf calculations": "2026-05-04T11:07:20.608272",
+    "new mathematics for computer performance array algebra and cost functions": "2026-05-04T11:07:20.608272",
+    "\u043e\u0446\u0456\u043d\u043a\u0430 \u0444\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a\u0443 \u0456\u043d\u0442\u0435\u0440\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0435\u0432\u043e\u043b\u044e\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u043d\u0435\u0434\u043e\u043c\u0456\u043d\u043e\u0432\u0430\u043d\u043e\u0433\u043e \u0433\u0435\u043d\u0435\u0442\u0438\u0447\u043d\u043e\u0433\u043e \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u0443 \u0441\u043e\u0440\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0456 \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u0432\u0447\u0430\u043d\u043d\u044f \u0434\u043b\u044f \u043e\u043f\u0442\u0438\u043c\u0456\u0437\u0430\u0446\u0456\u0457 \u0433\u0456\u043f\u0435\u0440\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0456\u0432 unet \u0443 \u0441\u0435\u0433\u043c\u0435\u043d\u0442\u0430\u0446\u0456\u0457 \u0441\u0456\u043b\u044c\u0441\u044c\u043a\u043e\u0433\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0445 \u0443\u0433\u0456\u0434\u044c": "2026-05-04T11:07:20.608272",
+    "optimal level set estimation for nonparametric tournament and crowdsourcing problems": "2026-05-04T11:07:20.608272",
+    "airconditioning load forecasting method based on eventaware timeseries fusion network": "2026-05-04T11:07:20.608272",
+    "a samplingbased gittins index approximation": "2026-05-04T11:07:20.608272",
+    "msfphydrnn a physicsdriven multisource fusion recurrent neural network for shortterm thunderstorm gale nowcasting": "2026-05-04T11:07:20.608272",
+    "hardware acceleration for machine learning": "2026-05-04T11:07:20.608272"
   }
 }
