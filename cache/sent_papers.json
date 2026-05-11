@@ -149,7 +149,17 @@
     "https://openalex.org/W7157154017": "2026-05-04T11:07:20.608272",
     "https://openalex.org/W7157046275": "2026-05-04T11:07:20.608272",
     "https://openalex.org/W7156175730": "2026-05-04T11:07:20.608272",
-    "https://openalex.org/W7156918637": "2026-05-04T11:07:20.608272"
+    "https://openalex.org/W7156918637": "2026-05-04T11:07:20.608272",
+    "https://openalex.org/W7160488124": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W4404343019": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7160143294": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7133274745": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W4402702496": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7160513610": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7160114269": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7156637092": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7160312965": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W7156583337": "2026-05-11T12:08:48.437479"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -301,6 +311,16 @@
     "airconditioning load forecasting method based on eventaware timeseries fusion network": "2026-05-04T11:07:20.608272",
     "a samplingbased gittins index approximation": "2026-05-04T11:07:20.608272",
     "msfphydrnn a physicsdriven multisource fusion recurrent neural network for shortterm thunderstorm gale nowcasting": "2026-05-04T11:07:20.608272",
-    "hardware acceleration for machine learning": "2026-05-04T11:07:20.608272"
+    "hardware acceleration for machine learning": "2026-05-04T11:07:20.608272",
+    "the application of deep learning in tactical analysis of football matches": "2026-05-11T12:08:48.437479",
+    "buzz beehivestructured sparse kv cache with segmented heavy hitters for efficient llm inference": "2026-05-11T12:08:48.437479",
+    "doldetr an efficient small object detection algorithm for unmanned aerial vehicle remote sensing": "2026-05-11T12:08:48.437479",
+    "architectures and frameworks for nearmemory computing using 3dstacked memories": "2026-05-11T12:08:48.437479",
+    "learning topic hierarchies by treedirected latent variable models": "2026-05-11T12:08:48.437479",
+    "weak calibration crossfusion framework for multimodal 3d object detection on unmanned surface vehicles": "2026-05-11T12:08:48.437479",
+    "a privacypreserving artificial intelligencedriven sensing system for distributed multimodal risk detection": "2026-05-11T12:08:48.437479",
+    "a hybrid sootmixformerbased reconstruction model for 2d soot spatial distribution inversion": "2026-05-11T12:08:48.437479",
+    "attentionkanbased multiagent reinforcement learning for coordinated battery energy storage control in residential demand response": "2026-05-11T12:08:48.437479",
+    "bridging crossmodal semantic gaps with multisource semantic anchors in knowledgebased visual question answering": "2026-05-11T12:08:48.437479"
   }
 }
