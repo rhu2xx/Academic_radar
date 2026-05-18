@@ -159,7 +159,17 @@
     "https://openalex.org/W7160114269": "2026-05-11T12:08:48.437479",
     "https://openalex.org/W7156637092": "2026-05-11T12:08:48.437479",
     "https://openalex.org/W7160312965": "2026-05-11T12:08:48.437479",
-    "https://openalex.org/W7156583337": "2026-05-11T12:08:48.437479"
+    "https://openalex.org/W7156583337": "2026-05-11T12:08:48.437479",
+    "https://openalex.org/W4411486541": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4415159602": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4411486231": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4411486557": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4392867133": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4413308235": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4417147545": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4411471852": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4411486483": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4412348099": "2026-05-18T12:27:37.646538"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -321,6 +331,16 @@
     "a privacypreserving artificial intelligencedriven sensing system for distributed multimodal risk detection": "2026-05-11T12:08:48.437479",
     "a hybrid sootmixformerbased reconstruction model for 2d soot spatial distribution inversion": "2026-05-11T12:08:48.437479",
     "attentionkanbased multiagent reinforcement learning for coordinated battery energy storage control in residential demand response": "2026-05-11T12:08:48.437479",
-    "bridging crossmodal semantic gaps with multisource semantic anchors in knowledgebased visual question answering": "2026-05-11T12:08:48.437479"
+    "bridging crossmodal semantic gaps with multisource semantic anchors in knowledgebased visual question answering": "2026-05-11T12:08:48.437479",
+    "avalanche optimizing cache utilization via matrix reordering for sparse matrix multiplication accelerator": "2026-05-18T12:27:37.646538",
+    "towards efficient large language model serving a survey on systemaware kv cache optimization": "2026-05-18T12:27:37.646538",
+    "insights into deepseekv3 scaling challenges and reflections on hardware for ai architectures": "2026-05-18T12:27:37.646538",
+    "transitive array an efficient gemm accelerator with result reuse": "2026-05-18T12:27:37.646538",
+    "flexnpu a dataflowaware flexible deep learning accelerator for energyefficient edge devices": "2026-05-18T12:27:37.646538",
+    "scpaceofspadescp s accelerating spatially sparse convolution for 3d scene understanding": "2026-05-18T12:27:37.646538",
+    "efficient multimodal large language models a survey": "2026-05-18T12:27:37.646538",
+    "reis a highperformance and energyefficient retrieval system with instorage processing": "2026-05-18T12:27:37.646538",
+    "flexnerfer a multidataflow adaptive sparsityaware accelerator for ondevice nerf rendering": "2026-05-18T12:27:37.646538",
+    "vehicle detection in drone aerial views based on lightweight osdyolov10": "2026-05-18T12:27:37.646538"
   }
 }
