@@ -169,7 +169,17 @@
     "https://openalex.org/W4417147545": "2026-05-18T12:27:37.646538",
     "https://openalex.org/W4411471852": "2026-05-18T12:27:37.646538",
     "https://openalex.org/W4411486483": "2026-05-18T12:27:37.646538",
-    "https://openalex.org/W4412348099": "2026-05-18T12:27:37.646538"
+    "https://openalex.org/W4412348099": "2026-05-18T12:27:37.646538",
+    "https://openalex.org/W4409366556": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4413637555": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W7155532152": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W7114903756": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4416300591": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4412516298": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4409695029": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4409568286": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4409586884": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4409327577": "2026-05-25T12:27:45.408935"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -341,6 +351,16 @@
     "efficient multimodal large language models a survey": "2026-05-18T12:27:37.646538",
     "reis a highperformance and energyefficient retrieval system with instorage processing": "2026-05-18T12:27:37.646538",
     "flexnerfer a multidataflow adaptive sparsityaware accelerator for ondevice nerf rendering": "2026-05-18T12:27:37.646538",
-    "vehicle detection in drone aerial views based on lightweight osdyolov10": "2026-05-18T12:27:37.646538"
+    "vehicle detection in drone aerial views based on lightweight osdyolov10": "2026-05-18T12:27:37.646538",
+    "mamba yolo a simple baseline for object detection with state space model": "2026-05-25T12:27:45.408935",
+    "full duplex transmit and receive beamforming with blocksparse antenna selection for multiuser massive mimo": "2026-05-25T12:27:45.408935",
+    "network edge inference for large language models principles techniques and opportunities": "2026-05-25T12:27:45.408935",
+    "hyperspectral image reconstruction algorithms for broadband spectral modulation a comprehensive review": "2026-05-25T12:27:45.408935",
+    "multimaterial and thickness optimization of sandwich structures subject to failure criteria": "2026-05-25T12:27:45.408935",
+    "a hierarchy of eigencomputations for polynomial optimization on the sphere": "2026-05-25T12:27:45.408935",
+    "a comprehensive survey of deep learning for time series forecasting architectural diversity and open challenges": "2026-05-25T12:27:45.408935",
+    "a survey on deep learning hardware accelerators for heterogeneous hpc platforms": "2026-05-25T12:27:45.408935",
+    "multiphysics simulation methods in computer graphics": "2026-05-25T12:27:45.408935",
+    "algorithms and tools for datadriven omics integration to achieve multilayer biological insights a narrative review": "2026-05-25T12:27:45.408935"
   }
 }
