@@ -10,7 +10,7 @@ That is Isomorphic Search: Finding the same mathematical shape in a different do
 
 ## 🏗️ How It Works
 
-5 AI agents working together:
+5 AI agents working together.
 
 1. **Profiler** - Learns your research interests from your papers
 2. **Abstractor** - Generates cross-domain search queries  
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 2. Configure
 
-Create `.env` file:
+Create `.env` file.
 
 ```bash
 # Required
