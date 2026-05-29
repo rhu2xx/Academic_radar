@@ -4,7 +4,7 @@ As researchers, we often get stuck in our own bubbles. We read the same journals
 
 **Academic Radar** is an AI tool built to bridge that gap. It doesn't just look for what you study; it looks for how you study it.
 
-**The "Isomorphic" Magic**: Let's say you are building a model to predict Stock Market Trends. You are stuck because the data is too noisy. Academic Radar analyzes your problem and realizes that mathematically, your "noisy stock data" looks exactly like "erratic heart signals" in Cardiology. It then recommends a medical paper on ECG Signal Denoising. Even though the paper is about hearts, the math is exactly what you need for stocks.
+**The "Isomorphic" Magic**: Let's say you are building a model to predict Stock Market Trends. You are stuck because the data is too noisy. Academic Radar analyzes your problem and realizes that mathematically, your "noisy stock data" looks exactly like "erratic heart signals" in Cardiology. It then recommends a medical paper on ECG Signal Denoising. The paper talks about heart signals, but its mathematical toolkit may be the missing key for stock prediction.
 
 That is Isomorphic Search: Finding the same mathematical shape in a different domain.
 
@@ -123,8 +123,8 @@ Get weekly paper discoveries delivered automatically - no manual running require
 
 ### Prerequisites
 
-- ✅ Completed steps 1-3 above (installed, configured, created profile)
-- ✅ GitHub account with this repository
+- Completed steps 1-3 above (installed, configured, created profile)
+- GitHub account with this repository
 
 ### Setup Instructions
 
