@@ -179,7 +179,17 @@
     "https://openalex.org/W4409695029": "2026-05-25T12:27:45.408935",
     "https://openalex.org/W4409568286": "2026-05-25T12:27:45.408935",
     "https://openalex.org/W4409586884": "2026-05-25T12:27:45.408935",
-    "https://openalex.org/W4409327577": "2026-05-25T12:27:45.408935"
+    "https://openalex.org/W4409327577": "2026-05-25T12:27:45.408935",
+    "https://openalex.org/W4416352716": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7162676533": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W4403995508": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7160874339": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7162887758": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7160855604": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7160536864": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7160863362": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7162333481": "2026-06-01T14:57:59.230304",
+    "https://openalex.org/W7160414501": "2026-06-01T14:57:59.230304"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -361,6 +371,16 @@
     "a comprehensive survey of deep learning for time series forecasting architectural diversity and open challenges": "2026-05-25T12:27:45.408935",
     "a survey on deep learning hardware accelerators for heterogeneous hpc platforms": "2026-05-25T12:27:45.408935",
     "multiphysics simulation methods in computer graphics": "2026-05-25T12:27:45.408935",
-    "algorithms and tools for datadriven omics integration to achieve multilayer biological insights a narrative review": "2026-05-25T12:27:45.408935"
+    "algorithms and tools for datadriven omics integration to achieve multilayer biological insights a narrative review": "2026-05-25T12:27:45.408935",
+    "kvswap diskaware kv cache offloading for longcontext ondevice inference": "2026-06-01T14:57:59.230304",
+    "kanformer a lightweight ecg model for realtime atrial fibrillation detection on wearable devices": "2026-06-01T14:57:59.230304",
+    "accelerating operator sinkhorn iteration with overrelaxation": "2026-06-01T14:57:59.230304",
+    "mamworld for openworld object detection with state space modeling and crossmodal fusion": "2026-06-01T14:57:59.230304",
+    "constraintrelaxation multiobjective optimization for layout planning of prefabricated subway stations under extreme spatial constraints": "2026-06-01T14:57:59.230304",
+    "optimizing largescale graph database ingestion through edge value ranking a proposed framework": "2026-06-01T14:57:59.230304",
+    "spatial modelling of tradeoffs between carbon stocks and potential timber volume under wildfire risk in european forests": "2026-06-01T14:57:59.230304",
+    "when does domination matter a structural and computational study of spanning and dominating trees in geometric networks": "2026-06-01T14:57:59.230304",
+    "hierarchical multiagent large language model reasoning for autonomous heterogeneous catalyst discovery": "2026-06-01T14:57:59.230304",
+    "marrying for power gendered alliances in mafias": "2026-06-01T14:57:59.230304"
   }
 }
