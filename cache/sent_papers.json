@@ -199,7 +199,17 @@
     "https://openalex.org/W7163588681": "2026-06-08T13:06:41.223330",
     "https://openalex.org/W4390306868": "2026-06-08T13:06:41.223330",
     "https://openalex.org/W7163325102": "2026-06-08T13:06:41.223330",
-    "https://openalex.org/W7163613850": "2026-06-08T13:06:41.223330"
+    "https://openalex.org/W7163613850": "2026-06-08T13:06:41.223330",
+    "https://openalex.org/W4413094666": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4412956814": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4415603703": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4412429273": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4416384414": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4414090085": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W7163044044": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4415137313": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4416134607": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W4413125521": "2026-06-15T15:17:07.071352"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -401,6 +411,16 @@
     "natural language processing captures memory content associated with shared neural patterns at encoding and retrieval": "2026-06-08T13:06:41.223330",
     "a data driven koopmanschur decomposition for computational analysis of nonlinear dynamics": "2026-06-08T13:06:41.223330",
     "research on embodied agent multimodal perception and realtime path planning algorithms for complex unstructured environments": "2026-06-08T13:06:41.223330",
-    "efficient approximation algorithms for the fr\u00e9chet distance": "2026-06-08T13:06:41.223330"
+    "efficient approximation algorithms for the fr\u00e9chet distance": "2026-06-08T13:06:41.223330",
+    "dsat a dynamic sparse attention transformer for steel surface defect detection with hierarchical feature fusion": "2026-06-15T15:17:07.071352",
+    "tsagru a novel hybrid deep learning module for learner behavior analytics in moocs": "2026-06-15T15:17:07.071352",
+    "a survey on sequential recommendation": "2026-06-15T15:17:07.071352",
+    "singular valuesdriven automated filter pruning": "2026-06-15T15:17:07.071352",
+    "exponential speedups for structured goemanswilliamson relaxations via quantum gibbs states and pauli sparsity": "2026-06-15T15:17:07.071352",
+    "spatiotemporal data fusion framework based on large language model for enhanced prediction of electric vehicle charging demand in smart grid management": "2026-06-15T15:17:07.071352",
+    "the emerging landscape of physicsinspired optimization": "2026-06-15T15:17:07.071352",
+    "a variety of optimization techniques applied in the context of quantum information theory": "2026-06-15T15:17:07.071352",
+    "a framework for image segmentation with deep neural models on iot devices": "2026-06-15T15:17:07.071352",
+    "grasp representation and detection with consistent path in robotic grasping": "2026-06-15T15:17:07.071352"
   }
 }
