@@ -209,7 +209,17 @@
     "https://openalex.org/W7163044044": "2026-06-15T15:17:07.071352",
     "https://openalex.org/W4415137313": "2026-06-15T15:17:07.071352",
     "https://openalex.org/W4416134607": "2026-06-15T15:17:07.071352",
-    "https://openalex.org/W4413125521": "2026-06-15T15:17:07.071352"
+    "https://openalex.org/W4413125521": "2026-06-15T15:17:07.071352",
+    "https://openalex.org/W7165152884": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W4416666198": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165194145": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165391387": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W4410104049": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165115751": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165119474": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165202729": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165146143": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7165133932": "2026-06-22T10:56:21.882501"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -421,6 +431,16 @@
     "the emerging landscape of physicsinspired optimization": "2026-06-15T15:17:07.071352",
     "a variety of optimization techniques applied in the context of quantum information theory": "2026-06-15T15:17:07.071352",
     "a framework for image segmentation with deep neural models on iot devices": "2026-06-15T15:17:07.071352",
-    "grasp representation and detection with consistent path in robotic grasping": "2026-06-15T15:17:07.071352"
+    "grasp representation and detection with consistent path in robotic grasping": "2026-06-15T15:17:07.071352",
+    "a review on deep state space models for sequential healthcare data prediction": "2026-06-22T10:56:21.882501",
+    "far functionpreserving attention replacement for imcfriendly inference": "2026-06-22T10:56:21.882501",
+    "domainrobust vision transformer with hierarchical swin encoding for explainable lowlatency driver drowsiness detection": "2026-06-22T10:56:21.882501",
+    "stem semantic target search and exploration using mavs in cluttered environments": "2026-06-22T10:56:21.882501",
+    "mixedprecision orthogonalizationfree projection methods for eigenvalue and singular value problems": "2026-06-22T10:56:21.882501",
+    "iterative solvers for partial differential equations with dissipative structure operator preconditioning and optimal control etna electronic transactions on numerical analysis": "2026-06-22T10:56:21.882501",
+    "a reparameterized lightweight residual attention framework for resourceconstrained edge computing": "2026-06-22T10:56:21.882501",
+    "graph attention networkenhanced multiagent reinforcement learning for dynamic interception task allocation in counterdrone defense": "2026-06-22T10:56:21.882501",
+    "beyond neural solvers a critical review of machine learning for combinatorial optimization": "2026-06-22T10:56:21.882501",
+    "topological data analysis foundations algorithms and emerging applications": "2026-06-22T10:56:21.882501"
   }
 }
