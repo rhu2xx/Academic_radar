@@ -219,7 +219,17 @@
     "https://openalex.org/W7165119474": "2026-06-22T10:56:21.882501",
     "https://openalex.org/W7165202729": "2026-06-22T10:56:21.882501",
     "https://openalex.org/W7165146143": "2026-06-22T10:56:21.882501",
-    "https://openalex.org/W7165133932": "2026-06-22T10:56:21.882501"
+    "https://openalex.org/W7165133932": "2026-06-22T10:56:21.882501",
+    "https://openalex.org/W7164859874": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7165742756": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7161131145": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7163348037": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7162140673": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7161779680": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W4417422242": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7165147532": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7163700786": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W7165785425": "2026-06-29T10:37:27.413437"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -441,6 +451,16 @@
     "a reparameterized lightweight residual attention framework for resourceconstrained edge computing": "2026-06-22T10:56:21.882501",
     "graph attention networkenhanced multiagent reinforcement learning for dynamic interception task allocation in counterdrone defense": "2026-06-22T10:56:21.882501",
     "beyond neural solvers a critical review of machine learning for combinatorial optimization": "2026-06-22T10:56:21.882501",
-    "topological data analysis foundations algorithms and emerging applications": "2026-06-22T10:56:21.882501"
+    "topological data analysis foundations algorithms and emerging applications": "2026-06-22T10:56:21.882501",
+    "btha blockthenhash attention for efficient long context": "2026-06-29T10:37:27.413437",
+    "analyzing the impact of kv representation compression on explainability in lightweight transformerbased sentiment analysis": "2026-06-29T10:37:27.413437",
+    "dynamic sparse attention for lightweight multimodal sensor fusion on edge devices": "2026-06-29T10:37:27.413437",
+    "vorn residual direction familial eviction and the granularity rescue spectrum": "2026-06-29T10:37:27.413437",
+    "saefpga a secure and efficient dnn accelerator on fpga with integrated hashbypass and bramlut mixedprecision booth multiply": "2026-06-29T10:37:27.413437",
+    "an integrated framework for memorycentric analysis from trace collection to codesign": "2026-06-29T10:37:27.413437",
+    "a scalable diagonalization framework for tensorproduct bitstring selected configuration interaction": "2026-06-29T10:37:27.413437",
+    "3d integrated dnn accelerators recent trends and future prospects": "2026-06-29T10:37:27.413437",
+    "bifurcationadaptive physicsinformed neural networks for stochastic dynamical systems": "2026-06-29T10:37:27.413437",
+    "optical flowenhanced dualstream network with anatomicalmotion semantics for left ventricular ejection fraction prediction": "2026-06-29T10:37:27.413437"
   }
 }
