@@ -229,7 +229,17 @@
     "https://openalex.org/W4417422242": "2026-06-29T10:37:27.413437",
     "https://openalex.org/W7165147532": "2026-06-29T10:37:27.413437",
     "https://openalex.org/W7163700786": "2026-06-29T10:37:27.413437",
-    "https://openalex.org/W7165785425": "2026-06-29T10:37:27.413437"
+    "https://openalex.org/W7165785425": "2026-06-29T10:37:27.413437",
+    "https://openalex.org/W4416245584": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7166719940": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7165937401": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7165847696": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7164926280": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7165939882": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7165642471": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7167237369": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7164928463": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7164805718": "2026-07-06T10:35:32.743150"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -461,6 +471,16 @@
     "a scalable diagonalization framework for tensorproduct bitstring selected configuration interaction": "2026-06-29T10:37:27.413437",
     "3d integrated dnn accelerators recent trends and future prospects": "2026-06-29T10:37:27.413437",
     "bifurcationadaptive physicsinformed neural networks for stochastic dynamical systems": "2026-06-29T10:37:27.413437",
-    "optical flowenhanced dualstream network with anatomicalmotion semantics for left ventricular ejection fraction prediction": "2026-06-29T10:37:27.413437"
+    "optical flowenhanced dualstream network with anatomicalmotion semantics for left ventricular ejection fraction prediction": "2026-06-29T10:37:27.413437",
+    "efficient tensor completion algorithms for highly oscillatory operators": "2026-07-06T10:35:32.743150",
+    "datadriven analysis for university governance modernization discipline development and academicrisk management a sparkgpu heterogeneous acceleration framework for largescale multisource data mining": "2026-07-06T10:35:32.743150",
+    "edgefusionnet realtime multimodal feedback for table tennis training via lightweight crossmodal attention fusion on edgecloud collaborative architecture": "2026-07-06T10:35:32.743150",
+    "maternal prenatal perceived stress shapes maternalfetal cardiac coupling insights from nonlinear recurrence analysis": "2026-07-06T10:35:32.743150",
+    "machinelearned interatomic potentials for modeling multicomponent metallic systems a comprehensive review": "2026-07-06T10:35:32.743150",
+    "a hybrid preconditioned iterative framework for largescale multibody dynamics": "2026-07-06T10:35:32.743150",
+    "unified gpubased simulation of porous flow absorption and diffusion in clothliquid coupling": "2026-07-06T10:35:32.743150",
+    "towards early warning of catastrophic ground subsidence through integrated fibreoptic sensing and satellite radar imaging": "2026-07-06T10:35:32.743150",
+    "a two stage statistical framework for cold start spare part demand forecasting": "2026-07-06T10:35:32.743150",
+    "a novel simulationoriented thermohydromechanical artificial intelligence framework for reliability assessment of energyembedded pavement structures": "2026-07-06T10:35:32.743150"
   }
 }
