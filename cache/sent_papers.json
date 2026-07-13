@@ -239,7 +239,17 @@
     "https://openalex.org/W7165642471": "2026-07-06T10:35:32.743150",
     "https://openalex.org/W7167237369": "2026-07-06T10:35:32.743150",
     "https://openalex.org/W7164928463": "2026-07-06T10:35:32.743150",
-    "https://openalex.org/W7164805718": "2026-07-06T10:35:32.743150"
+    "https://openalex.org/W7164805718": "2026-07-06T10:35:32.743150",
+    "https://openalex.org/W7160857024": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W4417085234": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7161724003": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7137920954": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7128169719": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7165649494": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7138097978": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7165622990": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W4362515116": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7164794766": "2026-07-13T10:08:15.282361"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -481,6 +491,16 @@
     "unified gpubased simulation of porous flow absorption and diffusion in clothliquid coupling": "2026-07-06T10:35:32.743150",
     "towards early warning of catastrophic ground subsidence through integrated fibreoptic sensing and satellite radar imaging": "2026-07-06T10:35:32.743150",
     "a two stage statistical framework for cold start spare part demand forecasting": "2026-07-06T10:35:32.743150",
-    "a novel simulationoriented thermohydromechanical artificial intelligence framework for reliability assessment of energyembedded pavement structures": "2026-07-06T10:35:32.743150"
+    "a novel simulationoriented thermohydromechanical artificial intelligence framework for reliability assessment of energyembedded pavement structures": "2026-07-06T10:35:32.743150",
+    "benchmarking cuda cupy and triton kernel optimizations for 3d point cloud segmentation an empirical comparison of latency memory efficiency and gpu utilization": "2026-07-13T10:08:15.282361",
+    "starc selective token access with remapping and clustering for efficient llm decoding on pim systems": "2026-07-13T10:08:15.282361",
+    "motion trajectory prediction of quadruped robots in complex terrain by improving the transformer temporal modeling algorithm": "2026-07-13T10:08:15.282361",
+    "q cache visual attention is valuable in less than half of decode layers for multimodal large language model": "2026-07-13T10:08:15.282361",
+    "sparta sparse parallel architecture for realtime threat analysis for lightweight edge network defense": "2026-07-13T10:08:15.282361",
+    "amp automatic modalityaware parallelization with hiddendimension tensor parallelism for multimodal 3d biological models": "2026-07-13T10:08:15.282361",
+    "salr sparsityaware lowrank representation for efficient finetuning of large language models": "2026-07-13T10:08:15.282361",
+    "the quantum optimization benchmarking library": "2026-07-13T10:08:15.282361",
+    "a survey of large language models": "2026-07-13T10:08:15.282361",
+    "\u8a00\u8a9e\u8a8d\u8b58\u578b\u30d7\u30eb\u30fc\u30cb\u30f3\u30b0\u3068\u4f4e\u30ea\u30bd\u30fc\u30b9\u691c\u7d22\u306b\u3088\u308b\u9ad8\u7cbe\u5ea6\u306a\u77e5\u8b58\u3092\u5099\u3048\u305f\u8a00\u8a9e\u7279\u5316\u578b\u30b3\u30f3\u30d1\u30af\u30c8\u5927\u898f\u6a21\u8a00\u8a9e\u30e2\u30c7\u30eb": "2026-07-13T10:08:15.282361"
   }
 }
