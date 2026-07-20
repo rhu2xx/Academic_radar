@@ -249,7 +249,17 @@
     "https://openalex.org/W7138097978": "2026-07-13T10:08:15.282361",
     "https://openalex.org/W7165622990": "2026-07-13T10:08:15.282361",
     "https://openalex.org/W4362515116": "2026-07-13T10:08:15.282361",
-    "https://openalex.org/W7164794766": "2026-07-13T10:08:15.282361"
+    "https://openalex.org/W7164794766": "2026-07-13T10:08:15.282361",
+    "https://openalex.org/W7168028096": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7167704027": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7168606501": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W2281809292": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7169670231": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7169591323": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7169508696": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7169627547": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W4415951560": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W7169555029": "2026-07-20T10:06:42.882269"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -501,6 +511,16 @@
     "salr sparsityaware lowrank representation for efficient finetuning of large language models": "2026-07-13T10:08:15.282361",
     "the quantum optimization benchmarking library": "2026-07-13T10:08:15.282361",
     "a survey of large language models": "2026-07-13T10:08:15.282361",
-    "\u8a00\u8a9e\u8a8d\u8b58\u578b\u30d7\u30eb\u30fc\u30cb\u30f3\u30b0\u3068\u4f4e\u30ea\u30bd\u30fc\u30b9\u691c\u7d22\u306b\u3088\u308b\u9ad8\u7cbe\u5ea6\u306a\u77e5\u8b58\u3092\u5099\u3048\u305f\u8a00\u8a9e\u7279\u5316\u578b\u30b3\u30f3\u30d1\u30af\u30c8\u5927\u898f\u6a21\u8a00\u8a9e\u30e2\u30c7\u30eb": "2026-07-13T10:08:15.282361"
+    "\u8a00\u8a9e\u8a8d\u8b58\u578b\u30d7\u30eb\u30fc\u30cb\u30f3\u30b0\u3068\u4f4e\u30ea\u30bd\u30fc\u30b9\u691c\u7d22\u306b\u3088\u308b\u9ad8\u7cbe\u5ea6\u306a\u77e5\u8b58\u3092\u5099\u3048\u305f\u8a00\u8a9e\u7279\u5316\u578b\u30b3\u30f3\u30d1\u30af\u30c8\u5927\u898f\u6a21\u8a00\u8a9e\u30e2\u30c7\u30eb": "2026-07-13T10:08:15.282361",
+    "precision meets speed through an fpgabased natively sparse ising machine for combinatorial optimization": "2026-07-20T10:06:42.882269",
+    "multigpu mbe3osvmp2 for performant largescale iab initioi calculations": "2026-07-20T10:06:42.882269",
+    "dynamic cost prediction for state grid engineering projects based on multisource business data fusion and datadriven methods": "2026-07-20T10:06:42.882269",
+    "parallel computations based on domain decompositions and integrated radial basis functions for fluid flow problems": "2026-07-20T10:06:42.882269",
+    "learningdriven mimo channel estimation using a residual unetbilstmattention hybrid model": "2026-07-20T10:06:42.882269",
+    "simultaneous troposphere estimation with precise point positioning": "2026-07-20T10:06:42.882269",
+    "compressive learning scaffolds higherorder network structure to enhance human knowledge acquisition": "2026-07-20T10:06:42.882269",
+    "objective tongue phenotyping identifies phenotypic heterogeneity in diabetic kidney disease a dualcenter clustering analysis": "2026-07-20T10:06:42.882269",
+    "phases of supersymmetric ground states in ads4": "2026-07-20T10:06:42.882269",
+    "a 3d visionbased method for turbine blade crown cladding area recognition and automatic path planning": "2026-07-20T10:06:42.882269"
   }
 }
