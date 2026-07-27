@@ -259,7 +259,17 @@
     "https://openalex.org/W7169508696": "2026-07-20T10:06:42.882269",
     "https://openalex.org/W7169627547": "2026-07-20T10:06:42.882269",
     "https://openalex.org/W4415951560": "2026-07-20T10:06:42.882269",
-    "https://openalex.org/W7169555029": "2026-07-20T10:06:42.882269"
+    "https://openalex.org/W7169555029": "2026-07-20T10:06:42.882269",
+    "https://openalex.org/W4417129363": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7168350292": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7170031414": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7169877416": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7140233089": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7169798413": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7169665349": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7168376136": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7170184058": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7170188748": "2026-07-27T10:23:02.012254"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -521,6 +531,16 @@
     "compressive learning scaffolds higherorder network structure to enhance human knowledge acquisition": "2026-07-20T10:06:42.882269",
     "objective tongue phenotyping identifies phenotypic heterogeneity in diabetic kidney disease a dualcenter clustering analysis": "2026-07-20T10:06:42.882269",
     "phases of supersymmetric ground states in ads4": "2026-07-20T10:06:42.882269",
-    "a 3d visionbased method for turbine blade crown cladding area recognition and automatic path planning": "2026-07-20T10:06:42.882269"
+    "a 3d visionbased method for turbine blade crown cladding area recognition and automatic path planning": "2026-07-20T10:06:42.882269",
+    "mask tokens as prophet finegrained cache eviction for efficient dllm inference": "2026-07-27T10:23:02.012254",
+    "quantized ecg representations unlock comprehensive cardiac understanding": "2026-07-27T10:23:02.012254",
+    "a uav path planning framework for leo satellite monitoring with hard corridor constraints": "2026-07-27T10:23:02.012254",
+    "systematic evaluation of singlecell foundation model interpretability attentionderived edge scores add no incremental value over genelevel features for perturbationtarget prediction": "2026-07-27T10:23:02.012254",
+    "a bloom filterbased dynamic symmetric searchable encryption scheme over cloud data": "2026-07-27T10:23:02.012254",
+    "quantifying the spatiotemporal mechanical dynamics of engineered cardiac microbundles": "2026-07-27T10:23:02.012254",
+    "breaking the norm populationscale deviations of brain structure in depression and anxiety": "2026-07-27T10:23:02.012254",
+    "sensoryguided humanmachine joint learning accelerates the acquisition of motor imagery brain computer interface control": "2026-07-27T10:23:02.012254",
+    "a neurofuzzy digital twin for interpretable cardiac disease recognition": "2026-07-27T10:23:02.012254",
+    "improved weighted nuclear norm minimization for infrared dim and smalltarget detection based on lowrank clustering": "2026-07-27T10:23:02.012254"
   }
 }
