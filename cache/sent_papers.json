@@ -269,7 +269,17 @@
     "https://openalex.org/W7169665349": "2026-07-27T10:23:02.012254",
     "https://openalex.org/W7168376136": "2026-07-27T10:23:02.012254",
     "https://openalex.org/W7170184058": "2026-07-27T10:23:02.012254",
-    "https://openalex.org/W7170188748": "2026-07-27T10:23:02.012254"
+    "https://openalex.org/W7170188748": "2026-07-27T10:23:02.012254",
+    "https://openalex.org/W7172022849": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7169767847": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7168172182": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7171468906": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7168696934": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7170172325": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7168483565": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7171853851": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7169039903": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7171626166": "2026-08-03T10:22:23.118232"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -541,6 +551,16 @@
     "breaking the norm populationscale deviations of brain structure in depression and anxiety": "2026-07-27T10:23:02.012254",
     "sensoryguided humanmachine joint learning accelerates the acquisition of motor imagery brain computer interface control": "2026-07-27T10:23:02.012254",
     "a neurofuzzy digital twin for interpretable cardiac disease recognition": "2026-07-27T10:23:02.012254",
-    "improved weighted nuclear norm minimization for infrared dim and smalltarget detection based on lowrank clustering": "2026-07-27T10:23:02.012254"
+    "improved weighted nuclear norm minimization for infrared dim and smalltarget detection based on lowrank clustering": "2026-07-27T10:23:02.012254",
+    "surviving resourceconstraint compression capability retention under tensortrain decomposition for subbillion parameter language models": "2026-08-03T10:22:23.118232",
+    "shortwindow microbehavioral triage for highthroughput firewall telemetry limits features and operational feasibility": "2026-08-03T10:22:23.118232",
+    "s2dygnn a spectrospatial dynamic graph neural network for acoustic event classification in distributed acoustic sensing": "2026-08-03T10:22:23.118232",
+    "a lightweight modelbased intelligent recognition approach for multicategory tunnel lining defects using gpr data": "2026-08-03T10:22:23.118232",
+    "a short review on the maximum clique problem algorithms with classical ai and quantum methods": "2026-08-03T10:22:23.118232",
+    "gmanet a cpuonly ultralightweight 3d cnn for realtime glioma triage in resourcelimited environments": "2026-08-03T10:22:23.118232",
+    "multiway radial consistency pretraining for event based optical flow": "2026-08-03T10:22:23.118232",
+    "twoloop leadingcolor qcd corrections for higgs plus twojet production in the heavytop limit": "2026-08-03T10:22:23.118232",
+    "postquantum dnssec a systematic review of transport constraints security vulnerabilities and migration pathways": "2026-08-03T10:22:23.118232",
+    "when prediction fails a computational complexity view of stress": "2026-08-03T10:22:23.118232"
   }
 }
