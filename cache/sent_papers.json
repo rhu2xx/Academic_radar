@@ -279,7 +279,17 @@
     "https://openalex.org/W7168483565": "2026-08-03T10:22:23.118232",
     "https://openalex.org/W7171853851": "2026-08-03T10:22:23.118232",
     "https://openalex.org/W7169039903": "2026-08-03T10:22:23.118232",
-    "https://openalex.org/W7171626166": "2026-08-03T10:22:23.118232"
+    "https://openalex.org/W7171626166": "2026-08-03T10:22:23.118232",
+    "https://openalex.org/W7201850085": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W4414460818": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7172474208": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7201972996": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7196948924": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7201874793": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7197047430": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7201972668": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7196942203": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W4414054200": "2026-08-10T09:34:32.094095"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -561,6 +571,16 @@
     "multiway radial consistency pretraining for event based optical flow": "2026-08-03T10:22:23.118232",
     "twoloop leadingcolor qcd corrections for higgs plus twojet production in the heavytop limit": "2026-08-03T10:22:23.118232",
     "postquantum dnssec a systematic review of transport constraints security vulnerabilities and migration pathways": "2026-08-03T10:22:23.118232",
-    "when prediction fails a computational complexity view of stress": "2026-08-03T10:22:23.118232"
+    "when prediction fails a computational complexity view of stress": "2026-08-03T10:22:23.118232",
+    "adaptive token divisionbased transformer for visual object tracking": "2026-08-10T09:34:32.094095",
+    "stm3 mixture of multiscale mamba for longterm spatiotemporal timeseries prediction": "2026-08-10T09:34:32.094095",
+    "see balance exchange building an operational toolkit for active distribution networks under high der penetration": "2026-08-10T09:34:32.094095",
+    "rolebased multirobot warehouse coordination with reinforcement learning assisted task selection": "2026-08-10T09:34:32.094095",
+    "embeddingbased kmeans for multicontroller placement in softwaredefined networks a crossscale empirical study on internet topology zoo": "2026-08-10T09:34:32.094095",
+    "parallel feature fusion networks for rotating machinery fault diagnosis with multisensor information": "2026-08-10T09:34:32.094095",
+    "enabling generalizable rul prediction for equipment a dualdimensional continual learning approach based on deep gaussian process": "2026-08-10T09:34:32.094095",
+    "realtime target tracking in passive wireless sensor networks using sensor fusion and kalman filtering": "2026-08-10T09:34:32.094095",
+    "forecasting wholesale prices of canchan potatoes using artificial intelligence models with data from the ministry of agrarian development and irrigation of peru 20202025": "2026-08-10T09:34:32.094095",
+    "geospatial contextual learning in aidriven ensemble framework for wireless systems": "2026-08-10T09:34:32.094095"
   }
 }
