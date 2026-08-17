@@ -289,7 +289,17 @@
     "https://openalex.org/W7197047430": "2026-08-10T09:34:32.094095",
     "https://openalex.org/W7201972668": "2026-08-10T09:34:32.094095",
     "https://openalex.org/W7196942203": "2026-08-10T09:34:32.094095",
-    "https://openalex.org/W4414054200": "2026-08-10T09:34:32.094095"
+    "https://openalex.org/W4414054200": "2026-08-10T09:34:32.094095",
+    "https://openalex.org/W7169862976": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W4406780477": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7167720603": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7168060023": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7170198541": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W4417280623": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7172278005": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7197441826": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W4385474421": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7172078944": "2026-08-17T09:37:19.227103"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -581,6 +591,16 @@
     "enabling generalizable rul prediction for equipment a dualdimensional continual learning approach based on deep gaussian process": "2026-08-10T09:34:32.094095",
     "realtime target tracking in passive wireless sensor networks using sensor fusion and kalman filtering": "2026-08-10T09:34:32.094095",
     "forecasting wholesale prices of canchan potatoes using artificial intelligence models with data from the ministry of agrarian development and irrigation of peru 20202025": "2026-08-10T09:34:32.094095",
-    "geospatial contextual learning in aidriven ensemble framework for wireless systems": "2026-08-10T09:34:32.094095"
+    "geospatial contextual learning in aidriven ensemble framework for wireless systems": "2026-08-10T09:34:32.094095",
+    "crossmodal varianceaware kv cache optimization for efficient multimodal longcontext inference": "2026-08-17T09:37:19.227103",
+    "neural radiance fields for the real world a survey": "2026-08-17T09:37:19.227103",
+    "a configurable streaming spiking neural network accelerator with decoupled pixellevel and outputchannel parallelism for automatic modulation classification": "2026-08-17T09:37:19.227103",
+    "llmguided runtime parameter optimization for energyefficient model inference": "2026-08-17T09:37:19.227103",
+    "current trends in artificial intelligence architectures from model scaling to system intelligence posttransformer hybrids and world models": "2026-08-17T09:37:19.227103",
+    "latentcrs a variational em framework for bridging semantics and behavior in llmbased conversational recommendation": "2026-08-17T09:37:19.227103",
+    "dualstream 1d mobilenet with channel attention fusion for rolling element fault diagnosis": "2026-08-17T09:37:19.227103",
+    "chaosathena a framework to compare gen ai model states a posttraining quantization case study": "2026-08-17T09:37:19.227103",
+    "pome parallelizing ios and computations for efficient lsmtreebased data storage": "2026-08-17T09:37:19.227103",
+    "modular blockchainbased data tampering detection for storage systems": "2026-08-17T09:37:19.227103"
   }
 }
