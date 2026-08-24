@@ -299,7 +299,17 @@
     "https://openalex.org/W7172278005": "2026-08-17T09:37:19.227103",
     "https://openalex.org/W7197441826": "2026-08-17T09:37:19.227103",
     "https://openalex.org/W4385474421": "2026-08-17T09:37:19.227103",
-    "https://openalex.org/W7172078944": "2026-08-17T09:37:19.227103"
+    "https://openalex.org/W7172078944": "2026-08-17T09:37:19.227103",
+    "https://openalex.org/W7167810098": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203902001": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203834195": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203880766": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203990212": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203981683": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203899757": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203896699": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203895959": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7203823106": "2026-08-24T09:43:32.665248"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -601,6 +611,16 @@
     "dualstream 1d mobilenet with channel attention fusion for rolling element fault diagnosis": "2026-08-17T09:37:19.227103",
     "chaosathena a framework to compare gen ai model states a posttraining quantization case study": "2026-08-17T09:37:19.227103",
     "pome parallelizing ios and computations for efficient lsmtreebased data storage": "2026-08-17T09:37:19.227103",
-    "modular blockchainbased data tampering detection for storage systems": "2026-08-17T09:37:19.227103"
+    "modular blockchainbased data tampering detection for storage systems": "2026-08-17T09:37:19.227103",
+    "compositional neurosymbolic representations enable efficient active exploration": "2026-08-24T09:43:32.665248",
+    "emdnet edgeaware multiscale difference network for remote sensing image change detection": "2026-08-24T09:43:32.665248",
+    "lightweight and robust audiovisual emotion recognition via multiscale mamba temporal modeling and qualityaware expert fusion": "2026-08-24T09:43:32.665248",
+    "recent trends in inverse rendering": "2026-08-24T09:43:32.665248",
+    "multimodal video summarization using visionlanguage embeddings and hierarchical temporal modeling": "2026-08-24T09:43:32.665248",
+    "a reinforcement learningdriven adaptive hybrid plcrf communication architecture for iotbased smart metering systems": "2026-08-24T09:43:32.665248",
+    "sequential boundary tracking via reinforcement learning for overlapping cell resolution in sickle cell imaging": "2026-08-24T09:43:32.665248",
+    "parametercontrolled geometricallyundefined porosity in laser powder bed fusion of metals a review": "2026-08-24T09:43:32.665248",
+    "federated learning and edge computingbased collaborative detection system for iot anomaly behavior": "2026-08-24T09:43:32.665248",
+    "a comprehensive survey on symbolic regression stateoftheart approaches key applications benchmark evaluations and future research directions": "2026-08-24T09:43:32.665248"
   }
 }
