@@ -309,7 +309,17 @@
     "https://openalex.org/W7203899757": "2026-08-24T09:43:32.665248",
     "https://openalex.org/W7203896699": "2026-08-24T09:43:32.665248",
     "https://openalex.org/W7203895959": "2026-08-24T09:43:32.665248",
-    "https://openalex.org/W7203823106": "2026-08-24T09:43:32.665248"
+    "https://openalex.org/W7203823106": "2026-08-24T09:43:32.665248",
+    "https://openalex.org/W7204701982": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204447759": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204451263": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7164018393": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204634479": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204446497": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204681632": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204562418": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204531844": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7204499627": "2026-08-31T16:40:09.302673"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -621,6 +631,16 @@
     "sequential boundary tracking via reinforcement learning for overlapping cell resolution in sickle cell imaging": "2026-08-24T09:43:32.665248",
     "parametercontrolled geometricallyundefined porosity in laser powder bed fusion of metals a review": "2026-08-24T09:43:32.665248",
     "federated learning and edge computingbased collaborative detection system for iot anomaly behavior": "2026-08-24T09:43:32.665248",
-    "a comprehensive survey on symbolic regression stateoftheart approaches key applications benchmark evaluations and future research directions": "2026-08-24T09:43:32.665248"
+    "a comprehensive survey on symbolic regression stateoftheart approaches key applications benchmark evaluations and future research directions": "2026-08-24T09:43:32.665248",
+    "spatiotemporal masked autoencoders with contrastive crossattention for robust video semantic segmentation in adverse autonomous driving conditions": "2026-08-31T16:40:09.302673",
+    "dynamic teaching quality assessment relying on realtime student posture recognition with yolov11_bwc": "2026-08-31T16:40:09.302673",
+    "a real time spatial occupancy based framework for predicting green signal time": "2026-08-31T16:40:09.302673",
+    "physicsguided residual learning for phaseaware uav trajectory prediction in urban environments": "2026-08-31T16:40:09.302673",
+    "a layeraware graph attention and patch transformer framework for multiclass iiot attack classification": "2026-08-31T16:40:09.302673",
+    "highperformance extraction method of highland barley crops utilizing feature optimization and machine learning algorithms based on sentinel2 images at key phenological stages a case study of linzhou county": "2026-08-31T16:40:09.302673",
+    "multimodal deep attention fusion of longitudinal ehr and diagnostic imaging for realtime sepsis and deterioration prediction in critical care": "2026-08-31T16:40:09.302673",
+    "cognitive uavdriven agrosurveillance framework for predicting crop stressinduced yield loss using spatiotemporal learning and adaptive irrigation control": "2026-08-31T16:40:09.302673",
+    "infraredguided superresolution of remotely sensed passive microwave sea surface temperature": "2026-08-31T16:40:09.302673",
+    "toward braininspired intelligence a review of photonic neuromorphic computing systems": "2026-08-31T16:40:09.302673"
   }
 }
