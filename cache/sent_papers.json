@@ -319,7 +319,17 @@
     "https://openalex.org/W7204681632": "2026-08-31T16:40:09.302673",
     "https://openalex.org/W7204562418": "2026-08-31T16:40:09.302673",
     "https://openalex.org/W7204531844": "2026-08-31T16:40:09.302673",
-    "https://openalex.org/W7204499627": "2026-08-31T16:40:09.302673"
+    "https://openalex.org/W7204499627": "2026-08-31T16:40:09.302673",
+    "https://openalex.org/W7208743960": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7208748978": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7207814743": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7208754375": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7208824882": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7133501728": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7208709715": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7208760306": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7208833046": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7169666186": "2026-09-07T14:47:37.119282"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -641,6 +651,16 @@
     "multimodal deep attention fusion of longitudinal ehr and diagnostic imaging for realtime sepsis and deterioration prediction in critical care": "2026-08-31T16:40:09.302673",
     "cognitive uavdriven agrosurveillance framework for predicting crop stressinduced yield loss using spatiotemporal learning and adaptive irrigation control": "2026-08-31T16:40:09.302673",
     "infraredguided superresolution of remotely sensed passive microwave sea surface temperature": "2026-08-31T16:40:09.302673",
-    "toward braininspired intelligence a review of photonic neuromorphic computing systems": "2026-08-31T16:40:09.302673"
+    "toward braininspired intelligence a review of photonic neuromorphic computing systems": "2026-08-31T16:40:09.302673",
+    "detecting market manipulation in structurally shallow markets a tiered and eventbased hybrid surveillance architecture integrating machine learning and econometrics": "2026-09-07T14:47:37.119282",
+    "hybrid forensic deepfake detection via multilayer fusion of luminance modeling sobel edge gradients and autoencoder residuals": "2026-09-07T14:47:37.119282",
+    "highfidelity update method for multitemporal point cloud models with semanticgeometric collaborative constraints": "2026-09-07T14:47:37.119282",
+    "classification of selected author styles in postmillennium world literature based on stylometric characteristics": "2026-09-07T14:47:37.119282",
+    "automated analog layout synthesis": "2026-09-07T14:47:37.119282",
+    "quantumenhanced hybridmodel compression using knowledge distillation": "2026-09-07T14:47:37.119282",
+    "regression with imbalanced data a comparative analysis of resampling methods": "2026-09-07T14:47:37.119282",
+    "a knowledge graphbased pipeline for literaturebased discovery in scientific research a machine learning pilot study": "2026-09-07T14:47:37.119282",
+    "type recovery in stripped binaries a comprehensive survey of inference tools and methods": "2026-09-07T14:47:37.119282",
+    "robot controller architectures for autonomous and reactive robotic systems": "2026-09-07T14:47:37.119282"
   }
 }
