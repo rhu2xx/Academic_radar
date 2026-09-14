@@ -329,7 +329,17 @@
     "https://openalex.org/W7208709715": "2026-09-07T14:47:37.119282",
     "https://openalex.org/W7208760306": "2026-09-07T14:47:37.119282",
     "https://openalex.org/W7208833046": "2026-09-07T14:47:37.119282",
-    "https://openalex.org/W7169666186": "2026-09-07T14:47:37.119282"
+    "https://openalex.org/W7169666186": "2026-09-07T14:47:37.119282",
+    "https://openalex.org/W7212005291": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7201837181": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212060351": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212080643": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212228690": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212120851": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212036348": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212300807": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7212052063": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7211974224": "2026-09-14T15:39:09.900208"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -661,6 +671,16 @@
     "regression with imbalanced data a comparative analysis of resampling methods": "2026-09-07T14:47:37.119282",
     "a knowledge graphbased pipeline for literaturebased discovery in scientific research a machine learning pilot study": "2026-09-07T14:47:37.119282",
     "type recovery in stripped binaries a comprehensive survey of inference tools and methods": "2026-09-07T14:47:37.119282",
-    "robot controller architectures for autonomous and reactive robotic systems": "2026-09-07T14:47:37.119282"
+    "robot controller architectures for autonomous and reactive robotic systems": "2026-09-07T14:47:37.119282",
+    "ultra fast encrypted network traffic classification based on classification by retrieval powered by outofdistribution": "2026-09-14T15:39:09.900208",
+    "simulated annealingtabu search integration for downsiderisk portfolio optimization with cardinality constraints": "2026-09-14T15:39:09.900208",
+    "fault identification method of transmission corridor based on 3d rtree integrated point cloud data segmentation": "2026-09-14T15:39:09.900208",
+    "an interpretable intrusion detection system for software defined networks using feature optimization and temporal learning": "2026-09-14T15:39:09.900208",
+    "welllog lithology classification in continental clastic reservoirs using structural feature tokenization and attentiongated heterogeneous model fusion": "2026-09-14T15:39:09.900208",
+    "a hybrid symbolicnumerical framework for artificial satellite theory and dynamics using maxima and julia": "2026-09-14T15:39:09.900208",
+    "ligradat graphlevel edgedensitybased threshold selection for ligra": "2026-09-14T15:39:09.900208",
+    "explicit modelling of lift characteristics for highlift devices based on knowledgeguided symbolic regression using large language model": "2026-09-14T15:39:09.900208",
+    "endtoend eeg based schizophrenia detection via hybrid temporalspatial dependency learning": "2026-09-14T15:39:09.900208",
+    "self supervised traffic embedding for high resolution risk assessment in large scale campus networks": "2026-09-14T15:39:09.900208"
   }
 }
