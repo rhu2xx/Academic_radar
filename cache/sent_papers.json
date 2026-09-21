@@ -339,7 +339,17 @@
     "https://openalex.org/W7212036348": "2026-09-14T15:39:09.900208",
     "https://openalex.org/W7212300807": "2026-09-14T15:39:09.900208",
     "https://openalex.org/W7212052063": "2026-09-14T15:39:09.900208",
-    "https://openalex.org/W7211974224": "2026-09-14T15:39:09.900208"
+    "https://openalex.org/W7211974224": "2026-09-14T15:39:09.900208",
+    "https://openalex.org/W7213421983": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7201846560": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7212286752": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7212110185": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7213437661": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W4390529182": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7212338416": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7213456400": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7213415065": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7213243493": "2026-09-21T15:38:59.459168"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -681,6 +691,16 @@
     "ligradat graphlevel edgedensitybased threshold selection for ligra": "2026-09-14T15:39:09.900208",
     "explicit modelling of lift characteristics for highlift devices based on knowledgeguided symbolic regression using large language model": "2026-09-14T15:39:09.900208",
     "endtoend eeg based schizophrenia detection via hybrid temporalspatial dependency learning": "2026-09-14T15:39:09.900208",
-    "self supervised traffic embedding for high resolution risk assessment in large scale campus networks": "2026-09-14T15:39:09.900208"
+    "self supervised traffic embedding for high resolution risk assessment in large scale campus networks": "2026-09-14T15:39:09.900208",
+    "probabilistic multimodal learning for drugtarget interaction prediction": "2026-09-21T15:38:59.459168",
+    "pipelinebased data processing method system and hardware apparatus": "2026-09-21T15:38:59.459168",
+    "sdareg largescale dynamic scene point cloud registration with semantic dualstream attention": "2026-09-21T15:38:59.459168",
+    "k nearest neighbor join algorithms for spatial data using compact and plain data structures in main memory": "2026-09-21T15:38:59.459168",
+    "spatioformer spatial perception enhancement for lightweight agricultural pest and disease detection": "2026-09-21T15:38:59.459168",
+    "beyond efficiency a systematic survey of resourceefficient large language models": "2026-09-21T15:38:59.459168",
+    "optimizing fewshot learning in pruned large language models with taskspecific prompts": "2026-09-21T15:38:59.459168",
+    "a survey on fully homomorphic encryption compilers": "2026-09-21T15:38:59.459168",
+    "hierarchical feature binding in a spiking neural network model of the primate ventral visual pathway": "2026-09-21T15:38:59.459168",
+    "mechanistic insights into the binding of six ligands to phenylalanine aminomutase from fusarium oxysporum a molecular docking and dynamics simulation study": "2026-09-21T15:38:59.459168"
   }
 }
