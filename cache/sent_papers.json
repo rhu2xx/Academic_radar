@@ -349,7 +349,17 @@
     "https://openalex.org/W7212338416": "2026-09-21T15:38:59.459168",
     "https://openalex.org/W7213456400": "2026-09-21T15:38:59.459168",
     "https://openalex.org/W7213415065": "2026-09-21T15:38:59.459168",
-    "https://openalex.org/W7213243493": "2026-09-21T15:38:59.459168"
+    "https://openalex.org/W7213243493": "2026-09-21T15:38:59.459168",
+    "https://openalex.org/W7214224317": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7204828150": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7203613454": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7214286058": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W4386114105": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7203723120": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7213939220": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7204435449": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7213909291": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7204101142": "2026-09-28T17:19:12.070469"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -701,6 +711,16 @@
     "optimizing fewshot learning in pruned large language models with taskspecific prompts": "2026-09-21T15:38:59.459168",
     "a survey on fully homomorphic encryption compilers": "2026-09-21T15:38:59.459168",
     "hierarchical feature binding in a spiking neural network model of the primate ventral visual pathway": "2026-09-21T15:38:59.459168",
-    "mechanistic insights into the binding of six ligands to phenylalanine aminomutase from fusarium oxysporum a molecular docking and dynamics simulation study": "2026-09-21T15:38:59.459168"
+    "mechanistic insights into the binding of six ligands to phenylalanine aminomutase from fusarium oxysporum a molecular docking and dynamics simulation study": "2026-09-21T15:38:59.459168",
+    "dcsrgcn a highperformance gcn accelerator based on dynamic compression and sparsity reordering": "2026-09-28T17:19:12.070469",
+    "dsamobilenet resourceaware dynamic sparse attention for efficient cardiac mri diagnosis on edge devices": "2026-09-28T17:19:12.070469",
+    "pull lazy materialization of working memory for stateful llm conversations": "2026-09-28T17:19:12.070469",
+    "psealp patchbased structural external attention with node memory for dynamic link prediction": "2026-09-28T17:19:12.070469",
+    "quantuminspired machine learning a survey": "2026-09-28T17:19:12.070469",
+    "mocap denoising via sparsity optimization on highorder motion feature": "2026-09-28T17:19:12.070469",
+    "omcbench and atombitomc taskaligned benchmarks and robust interpretable machinelearned interatomic potentials for organic molecular crystals": "2026-09-28T17:19:12.070469",
+    "patientspecific stopping power calibration of treatment planning xray ct using integrated depthdose profiles acquired by proton transmission imaginga feasibility study": "2026-09-28T17:19:12.070469",
+    "interpretable hybrid model combining cnnvit with gradcam and shap for transparent mapping of land use changes": "2026-09-28T17:19:12.070469",
+    "neural quantum states in condensed matter advances best practices and prospects": "2026-09-28T17:19:12.070469"
   }
 }
