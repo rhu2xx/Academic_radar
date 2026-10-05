@@ -359,7 +359,17 @@
     "https://openalex.org/W7213939220": "2026-09-28T17:19:12.070469",
     "https://openalex.org/W7204435449": "2026-09-28T17:19:12.070469",
     "https://openalex.org/W7213909291": "2026-09-28T17:19:12.070469",
-    "https://openalex.org/W7204101142": "2026-09-28T17:19:12.070469"
+    "https://openalex.org/W7204101142": "2026-09-28T17:19:12.070469",
+    "https://openalex.org/W7214959958": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7214790366": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7214765704": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7214944862": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7163001058": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7214936288": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7213587602": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7215092794": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7215030046": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7215061110": "2026-10-05T17:44:35.177961"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -721,6 +731,16 @@
     "omcbench and atombitomc taskaligned benchmarks and robust interpretable machinelearned interatomic potentials for organic molecular crystals": "2026-09-28T17:19:12.070469",
     "patientspecific stopping power calibration of treatment planning xray ct using integrated depthdose profiles acquired by proton transmission imaginga feasibility study": "2026-09-28T17:19:12.070469",
     "interpretable hybrid model combining cnnvit with gradcam and shap for transparent mapping of land use changes": "2026-09-28T17:19:12.070469",
-    "neural quantum states in condensed matter advances best practices and prospects": "2026-09-28T17:19:12.070469"
+    "neural quantum states in condensed matter advances best practices and prospects": "2026-09-28T17:19:12.070469",
+    "uniova universal ondemand video analytics with edgecloud collaborative multimodal llm": "2026-10-05T17:44:35.177961",
+    "optimizing pipeline parallelism for deep learning with activation checkpointing": "2026-10-05T17:44:35.177961",
+    "an irregular latticebased numerical framework for implicit fracture analysis of structural concrete": "2026-10-05T17:44:35.177961",
+    "mtbrainvlm a multitask 3d visionlanguage model for hierarchical report generation with dualpath shapley explainability": "2026-10-05T17:44:35.177961",
+    "knowledge boundary probing and demandguided intervention for llmbased power system code generation": "2026-10-05T17:44:35.177961",
+    "mixedprecision computing for scientific discovery formats codesign and responsible approximation": "2026-10-05T17:44:35.177961",
+    "efficient tensorized evaluation of permutation invariant polynomials for representing potential energy surfaces": "2026-10-05T17:44:35.177961",
+    "a unified dual method for matching problems": "2026-10-05T17:44:35.177961",
+    "seer selfenhancing chainofthought compression for reasoning models": "2026-10-05T17:44:35.177961",
+    "simtsim exploiting hardware platform parallelism for gpgpu instruction set simulation": "2026-10-05T17:44:35.177961"
   }
 }
