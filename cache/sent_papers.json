@@ -369,7 +369,17 @@
     "https://openalex.org/W7213587602": "2026-10-05T17:44:35.177961",
     "https://openalex.org/W7215092794": "2026-10-05T17:44:35.177961",
     "https://openalex.org/W7215030046": "2026-10-05T17:44:35.177961",
-    "https://openalex.org/W7215061110": "2026-10-05T17:44:35.177961"
+    "https://openalex.org/W7215061110": "2026-10-05T17:44:35.177961",
+    "https://openalex.org/W7219939469": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7171967198": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7168149720": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7172487909": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7218129460": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W4406880112": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7214796080": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7204688744": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7202042930": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W4399912404": "2026-10-12T18:31:16.726718"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -741,6 +751,16 @@
     "efficient tensorized evaluation of permutation invariant polynomials for representing potential energy surfaces": "2026-10-05T17:44:35.177961",
     "a unified dual method for matching problems": "2026-10-05T17:44:35.177961",
     "seer selfenhancing chainofthought compression for reasoning models": "2026-10-05T17:44:35.177961",
-    "simtsim exploiting hardware platform parallelism for gpgpu instruction set simulation": "2026-10-05T17:44:35.177961"
+    "simtsim exploiting hardware platform parallelism for gpgpu instruction set simulation": "2026-10-05T17:44:35.177961",
+    "layered attention and memory management for ultralong language model contexts": "2026-10-12T18:31:16.726718",
+    "hikv hierarchical importanceaware kv cache with hardware acceleration for llm decoding": "2026-10-12T18:31:16.726718",
+    "flownar scalable streaming narration for longform videos": "2026-10-12T18:31:16.726718",
+    "adak adaptive kv cache budget estimation framework for analyzing longcontext large language model inference": "2026-10-12T18:31:16.726718",
+    "to evict or to merge a survey of llm kv cache management strategies and the srkv framework": "2026-10-12T18:31:16.726718",
+    "taskkv taskaware kv cache optimization via semantic differentiation of attention heads": "2026-10-12T18:31:16.726718",
+    "energyefficient retrievalaugmented generation a systematic review of retrieval reranking caching and contextmanagement strategies": "2026-10-12T18:31:16.726718",
+    "maximum likelihood reconstruction of particle trajectories in turbulent flows via sparse optimization": "2026-10-12T18:31:16.726718",
+    "efficient retrievalaugmented generation via multisignal token compression": "2026-10-12T18:31:16.726718",
+    "a unified framework for combinatorial optimization based on graph neural networks": "2026-10-12T18:31:16.726718"
   }
 }
