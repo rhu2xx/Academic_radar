@@ -379,7 +379,17 @@
     "https://openalex.org/W7214796080": "2026-10-12T18:31:16.726718",
     "https://openalex.org/W7204688744": "2026-10-12T18:31:16.726718",
     "https://openalex.org/W7202042930": "2026-10-12T18:31:16.726718",
-    "https://openalex.org/W4399912404": "2026-10-12T18:31:16.726718"
+    "https://openalex.org/W4399912404": "2026-10-12T18:31:16.726718",
+    "https://openalex.org/W7213356977": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7221176792": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7214731693": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7123317871": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7214101638": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7221570622": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7215032987": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7222032580": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7220840186": "2026-10-19T16:08:54.550963",
+    "https://openalex.org/W7213868645": "2026-10-19T16:08:54.550963"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -761,6 +771,16 @@
     "energyefficient retrievalaugmented generation a systematic review of retrieval reranking caching and contextmanagement strategies": "2026-10-12T18:31:16.726718",
     "maximum likelihood reconstruction of particle trajectories in turbulent flows via sparse optimization": "2026-10-12T18:31:16.726718",
     "efficient retrievalaugmented generation via multisignal token compression": "2026-10-12T18:31:16.726718",
-    "a unified framework for combinatorial optimization based on graph neural networks": "2026-10-12T18:31:16.726718"
+    "a unified framework for combinatorial optimization based on graph neural networks": "2026-10-12T18:31:16.726718",
+    "cadsa contentaware dynamic sparse attention for lightweight and energyefficient edge ai with subquadratic complexity": "2026-10-19T16:08:54.550963",
+    "hmgat vehicle trajectory prediction based on hierarchical mamba and graph attention networks": "2026-10-19T16:08:54.550963",
+    "adaptive leveragescore sketching and sparse random projections for scalable streaming clustering with concept x drift": "2026-10-19T16:08:54.550963",
+    "dema dualpath delayaware mamba for efficient multivariate time series analysis": "2026-10-19T16:08:54.550963",
+    "tomomamba a twostage model with statespace crossslice propagation for breast cancer diagnosis in digital breast tomosynthesis": "2026-10-19T16:08:54.550963",
+    "mtdanet lightweight multiscale temporal hierarchy and distanceregularized linear attention network for motor imagery braincomputer interfaces": "2026-10-19T16:08:54.550963",
+    "a study on kindergarten teacherchild interaction quality based on a multimodal emotion recognition model integrating speech and text": "2026-10-19T16:08:54.550963",
+    "arrowde an adaptive rotationsafe routed operator workflow for differential evolution": "2026-10-19T16:08:54.550963",
+    "retrofitting language models to operate over bytes": "2026-10-19T16:08:54.550963",
+    "how does rewetting propagate through restored peatlands an integrated surfacesubsurface modelling analysis of watertable dynamics": "2026-10-19T16:08:54.550963"
   }
 }
