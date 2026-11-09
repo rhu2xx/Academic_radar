@@ -409,7 +409,17 @@
     "https://openalex.org/W7224448568": "2026-11-02T19:05:36.588090",
     "https://openalex.org/W7224911026": "2026-11-02T19:05:36.588090",
     "https://openalex.org/W4399399109": "2026-11-02T19:05:36.588090",
-    "https://openalex.org/W7224889342": "2026-11-02T19:05:36.588090"
+    "https://openalex.org/W7224889342": "2026-11-02T19:05:36.588090",
+    "https://openalex.org/W7202163207": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225461177": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225385824": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225407882": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225466966": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225468124": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7223835807": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W4416554896": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225467497": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7225452460": "2026-11-09T19:29:57.319622"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -821,6 +831,16 @@
     "topologically adaptive ant colony optimization for scheduling megastructure pile foundations with endogenous spatiotemporal constraints": "2026-11-02T19:05:36.588090",
     "phosv1 efficient scaling of model sleeping on a single server for autoscaling with gpucontext deduplication": "2026-11-02T19:05:36.588090",
     "accelerating hybrid model predictive control using warmstarted generalized benders decomposition": "2026-11-02T19:05:36.588090",
-    "surrogate outcomes modelling uptake and deriving from multivariate biomarkers": "2026-11-02T19:05:36.588090"
+    "surrogate outcomes modelling uptake and deriving from multivariate biomarkers": "2026-11-02T19:05:36.588090",
+    "voxzip semanticanchored temporal kv cache compression for longcontext audio inference": "2026-11-09T19:29:57.319622",
+    "an intelligent distancedriven community detection framework for complex networks using the longest distance node head technique ldnht": "2026-11-09T19:29:57.319622",
+    "tilequant tile as the precisionallocation unit for llm mixedprecision posttraining quantization": "2026-11-09T19:29:57.319622",
+    "tfmamba intelligent fault diagnosis model for wind turbine bearings based on multimodal selective gating mamba": "2026-11-09T19:29:57.319622",
+    "interpretable and lightweight multimodal transformer assessment of english education ecosystem health": "2026-11-09T19:29:57.319622",
+    "a transformerbased explainable machine learning framework for heterogeneous esg risk and return prediction using text intelligence": "2026-11-09T19:29:57.319622",
+    "learning to remember advances in memory mechanisms for large language models": "2026-11-09T19:29:57.319622",
+    "multishap a shapleybased framework for explaining crossmodal interactions in multimodal ai models": "2026-11-09T19:29:57.319622",
+    "g2rl gridaware gated recurrent learning for spatiotemporal urban air quality forecasting": "2026-11-09T19:29:57.319622",
+    "lextnet a leadadaptive hierarchical network for 3lead to 12lead ecg reconstruction": "2026-11-09T19:29:57.319622"
   }
 }
