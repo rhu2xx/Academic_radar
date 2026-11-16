@@ -419,7 +419,17 @@
     "https://openalex.org/W7223835807": "2026-11-09T19:29:57.319622",
     "https://openalex.org/W4416554896": "2026-11-09T19:29:57.319622",
     "https://openalex.org/W7225467497": "2026-11-09T19:29:57.319622",
-    "https://openalex.org/W7225452460": "2026-11-09T19:29:57.319622"
+    "https://openalex.org/W7225452460": "2026-11-09T19:29:57.319622",
+    "https://openalex.org/W7231040437": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7167221155": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7163141910": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7229048112": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7160605856": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7214359226": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7143341876": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7232787172": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7128624946": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7226006292": "2026-11-16T19:11:49.068755"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -841,6 +851,16 @@
     "learning to remember advances in memory mechanisms for large language models": "2026-11-09T19:29:57.319622",
     "multishap a shapleybased framework for explaining crossmodal interactions in multimodal ai models": "2026-11-09T19:29:57.319622",
     "g2rl gridaware gated recurrent learning for spatiotemporal urban air quality forecasting": "2026-11-09T19:29:57.319622",
-    "lextnet a leadadaptive hierarchical network for 3lead to 12lead ecg reconstruction": "2026-11-09T19:29:57.319622"
+    "lextnet a leadadaptive hierarchical network for 3lead to 12lead ecg reconstruction": "2026-11-09T19:29:57.319622",
+    "jetfire approximatethencorrect attention on hybrid memory for longcontext llm inference": "2026-11-16T19:11:49.068755",
+    "hypic positionindependent caching for hybridattention llm serving": "2026-11-16T19:11:49.068755",
+    "prefixflow trainingtime kv caching for schedulelevel prefix reuse in llm rl training": "2026-11-16T19:11:49.068755",
+    "kvlite efficient llm agent scheduling via headaware kv sharing": "2026-11-16T19:11:49.068755",
+    "requests of a feather must flock together batch size vs prefix homogeneity in llm inference": "2026-11-16T19:11:49.068755",
+    "schedules are solvable symbols tuningfree compilation of tile programs on dataflow architectures": "2026-11-16T19:11:49.068755",
+    "rocks pebbles and sand modalityaware scheduling for multimodal large language model inference": "2026-11-16T19:11:49.068755",
+    "agentmesh toward redundancy and barrierfree dataflow in multiagent systems": "2026-11-16T19:11:49.068755",
+    "flexmarl graphdriven rollouttraining codesign for llmbased multiagent reinforcement learning": "2026-11-16T19:11:49.068755",
+    "redesigning small payload transfer paths for emerging nvme ssd workloads": "2026-11-16T19:11:49.068755"
   }
 }
