@@ -429,7 +429,17 @@
     "https://openalex.org/W7143341876": "2026-11-16T19:11:49.068755",
     "https://openalex.org/W7232787172": "2026-11-16T19:11:49.068755",
     "https://openalex.org/W7128624946": "2026-11-16T19:11:49.068755",
-    "https://openalex.org/W7226006292": "2026-11-16T19:11:49.068755"
+    "https://openalex.org/W7226006292": "2026-11-16T19:11:49.068755",
+    "https://openalex.org/W7225875522": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7155224882": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7235081010": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7222644164": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7219803470": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7106178468": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7222403847": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7138945011": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7222468898": "2026-11-23T20:50:42.182340",
+    "https://openalex.org/W7214886060": "2026-11-23T20:50:42.182340"
   },
   "titles": {
     "lammpskokkos performance portable molecular dynamics across exascale architectures": "2026-01-31T10:59:35.561553",
@@ -861,6 +871,16 @@
     "rocks pebbles and sand modalityaware scheduling for multimodal large language model inference": "2026-11-16T19:11:49.068755",
     "agentmesh toward redundancy and barrierfree dataflow in multiagent systems": "2026-11-16T19:11:49.068755",
     "flexmarl graphdriven rollouttraining codesign for llmbased multiagent reinforcement learning": "2026-11-16T19:11:49.068755",
-    "redesigning small payload transfer paths for emerging nvme ssd workloads": "2026-11-16T19:11:49.068755"
+    "redesigning small payload transfer paths for emerging nvme ssd workloads": "2026-11-16T19:11:49.068755",
+    "ordered physics mamba a statespace model for vehicle flow field and aerodynamic force prediction": "2026-11-23T20:50:42.182340",
+    "anyrecon arbitraryview 3d reconstruction with video diffusion model": "2026-11-23T20:50:42.182340",
+    "a umambadlka framework with artificial rabbits optimization for automated liver ct image segmentation": "2026-11-23T20:50:42.182340",
+    "a selfsupervised temporal deep learning framework with diffusionbased rebalancing and causal explainability for student performance prediction in learning analytics": "2026-11-23T20:50:42.182340",
+    "hybrid deep learning finite difference time domain modeling via surface equivalence theorem for accelerating electromagnetic simulations": "2026-11-23T20:50:42.182340",
+    "semantic multiplexing": "2026-11-23T20:50:42.182340",
+    "edgemusictransformer a lightweight contextaware transformer for efficient generative ai deployment under edge computing constraints": "2026-11-23T20:50:42.182340",
+    "m 3 dense matching meets multiview foundation models for monocular gaussian splatting slam": "2026-11-23T20:50:42.182340",
+    "an explainable woperformertabm framework with crossattention feature fusion for pregnancy outcome prediction": "2026-11-23T20:50:42.182340",
+    "event memory and narrative dynamics a large language model framework for multidimensional state spaces": "2026-11-23T20:50:42.182340"
   }
 }
